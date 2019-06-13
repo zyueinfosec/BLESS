@@ -1,0 +1,263 @@
+record `com.dedett.qqzan.Floatw` @kind class @AccessFlag PUBLIC extends `android.app.Service` @kind class {
+  `long` `com.dedett.qqzan.Floatw.jv` @AccessFlag ;
+  `android.widget.LinearLayout` `com.dedett.qqzan.Floatw.mFloatLayout` @AccessFlag PRIVATE;
+  `android.os.Handler` `com.dedett.qqzan.Floatw.mHandler` @AccessFlag PRIVATE;
+  `java.lang.Runnable` `com.dedett.qqzan.Floatw.mRunnable` @AccessFlag PRIVATE;
+  `android.view.WindowManager` `com.dedett.qqzan.Floatw.mWindowManager` @AccessFlag PRIVATE;
+  `int` `com.dedett.qqzan.Floatw.my_password` @AccessFlag ;
+  `int` `com.dedett.qqzan.Floatw.number` @AccessFlag ;
+  `android.view.WindowManager$LayoutParams` `com.dedett.qqzan.Floatw.wmParams` @AccessFlag PRIVATE;
+}
+procedure `void` `<init>`(`com.dedett.qqzan.Floatw` v8 @kind this) @signature `Lcom/dedett/qqzan/Floatw;.<init>:()V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+    v5;
+    v6;
+    v7;
+
+  #L00454c.  v0:= v8 @kind object;
+  #L00454e.  v2:= v0 @kind object;
+  #L004550.  call `<init>`(v2) @signature `Landroid/app/Service;.<init>:()V` @kind direct;
+  #L004556.  v2:= v0 @kind object;
+  #L004558.  call temp:= `random`() @signature `Ljava/lang/Math;.random:()D` @kind static;
+  #L00455e.  v3:= temp @kind wide;
+  #L004560.  v5:= 1I;
+  #L004562.  v5:= (`double`) v5 @kind i2d;
+  #L004564.  v3:= v3 + v5 @kind double;
+  #L004566.  v5:= 100000I;
+  #L00456c.  v5:= (`double`) v5 @kind i2d;
+  #L00456e.  v3:= v3 * v5 @kind double;
+  #L004570.  v3:= (`int`) v3 @kind d2i;
+  #L004572.  v2.`com.dedett.qqzan.Floatw.number` @type ^`int` := v3;
+  #L004576.  v2:= v0 @kind object;
+  #L004578.  v3:= v0 @kind object;
+  #L00457a.  v3:= v3.`com.dedett.qqzan.Floatw.number` @type ^`int`;
+  #L00457e.  v4:= 2016I;
+  #L004582.  v3:= v3 + -2016;
+  #L004586.  v4:= 2I;
+  #L004588.  v3:= v3 * 2;
+  #L00458c.  v4:= 2016I;
+  #L004590.  v3:= v3 + -2016;
+  #L004594.  v3:= 2016I;
+  #L004598.  v2.`com.dedett.qqzan.Floatw.my_password` @type ^`int` := v3;
+  #L00459c.  v2:= v0 @kind object;
+  #L00459e.  v3:= new `com.dedett.qqzan.Floatw$100000002`;
+  #L0045a2.  v7:= v3 @kind object;
+  #L0045a4.  v3:= v7 @kind object;
+  #L0045a6.  v4:= v7 @kind object;
+  #L0045a8.  v5:= v0 @kind object;
+  #L0045aa.  call `<init>`(v4, v5) @signature `Lcom/dedett/qqzan/Floatw$100000002;.<init>:(Lcom/dedett/qqzan/Floatw;)V` @kind direct;
+  #L0045b0.  v2.`com.dedett.qqzan.Floatw.mRunnable` @type ^`java.lang.Runnable` := v3 @kind object;
+  #L0045b4.  return @kind void;
+}
+procedure `android.widget.LinearLayout` `access$L1000002`(`com.dedett.qqzan.Floatw` v4 @kind object) @signature `Lcom/dedett/qqzan/Floatw;.access$L1000002:(Lcom/dedett/qqzan/Floatw;)Landroid/widget/LinearLayout;` @AccessFlag STATIC_SYNTHETIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+
+  #L0045c8.  v0:= v4 @kind object;
+  #L0045ca.  v3:= v0 @kind object;
+  #L0045cc.  v3:= v3.`com.dedett.qqzan.Floatw.mFloatLayout` @type ^`android.widget.LinearLayout` @kind object;
+  #L0045d0.  v0:= v3 @kind object;
+  #L0045d2.  return v0 @kind object;
+}
+procedure `void` `access$S1000002`(`com.dedett.qqzan.Floatw` v6 @kind object, `android.widget.LinearLayout` v7 @kind object) @signature `Lcom/dedett/qqzan/Floatw;.access$S1000002:(Lcom/dedett/qqzan/Floatw;Landroid/widget/LinearLayout;)V` @AccessFlag STATIC_SYNTHETIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+    v5;
+
+  #L0045e4.  v0:= v6 @kind object;
+  #L0045e6.  v1:= v7 @kind object;
+  #L0045e8.  v4:= v0 @kind object;
+  #L0045ea.  v5:= v1 @kind object;
+  #L0045ec.  v4.`com.dedett.qqzan.Floatw.mFloatLayout` @type ^`android.widget.LinearLayout` := v5 @kind object;
+  #L0045f0.  return @kind void;
+}
+procedure `void` `createFloatView`(`com.dedett.qqzan.Floatw` v9 @kind this) @signature `Lcom/dedett/qqzan/Floatw;.createFloatView:()V` @AccessFlag PRIVATE {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+    v5;
+    v6;
+    v7;
+    v8;
+
+  #L004604.  v0:= v9 @kind object;
+  #L004606.  v4:= v0 @kind object;
+  #L004608.  v5:= new `android.view.WindowManager$LayoutParams`;
+  #L00460c.  v8:= v5 @kind object;
+  #L00460e.  v5:= v8 @kind object;
+  #L004610.  v6:= v8 @kind object;
+  #L004612.  call `<init>`(v6) @signature `Landroid/view/WindowManager$LayoutParams;.<init>:()V` @kind direct;
+  #L004618.  v4.`com.dedett.qqzan.Floatw.wmParams` @type ^`android.view.WindowManager$LayoutParams` := v5 @kind object;
+  #L00461c.  v4:= v0 @kind object;
+  #L00461e.  v5:= v0 @kind object;
+  #L004620.  call temp:= `getApplication`(v5) @signature `Lcom/dedett/qqzan/Floatw;.getApplication:()Landroid/app/Application;` @kind virtual;
+  #L004626.  v5:= temp @kind object;
+  #L004628.  v6:= v0 @kind object;
+  #L00462a.  call temp:= `getApplication`(v6) @signature `Lcom/dedett/qqzan/Floatw;.getApplication:()Landroid/app/Application;` @kind virtual;
+  #L004630.  v6:= temp @kind object;
+  #L004632.  v6:= `@@android.content.Context.WINDOW_SERVICE` @type ^`java.lang.String` @kind object;
+  #L004636.  call temp:= `getSystemService`(v5, v6) @signature `Landroid/app/Application;.getSystemService:(Ljava/lang/String;)Ljava/lang/Object;` @kind virtual;
+  #L00463c.  v5:= temp @kind object;
+  #L00463e.  v5:= (`android.view.WindowManager`) v5 @kind object;
+  #L004642.  v4.`com.dedett.qqzan.Floatw.mWindowManager` @type ^`android.view.WindowManager` := v5 @kind object;
+  #L004646.  v4:= v0 @kind object;
+  #L004648.  v4:= v4.`com.dedett.qqzan.Floatw.wmParams` @type ^`android.view.WindowManager$LayoutParams` @kind object;
+  #L00464c.  v5:= 2010I;
+  #L004650.  v4.`android.view.WindowManager$LayoutParams.type` @type ^`int` := v5;
+  #L004654.  v4:= v0 @kind object;
+  #L004656.  v4:= v4.`com.dedett.qqzan.Floatw.wmParams` @type ^`android.view.WindowManager$LayoutParams` @kind object;
+  #L00465a.  v5:= 1I;
+  #L00465c.  v4.`android.view.WindowManager$LayoutParams.format` @type ^`int` := v5;
+  #L004660.  v4:= v0 @kind object;
+  #L004662.  v4:= v4.`com.dedett.qqzan.Floatw.wmParams` @type ^`android.view.WindowManager$LayoutParams` @kind object;
+  #L004666.  v5:= 1280I;
+  #L00466a.  v4.`android.view.WindowManager$LayoutParams.flags` @type ^`int` := v5;
+  #L00466e.  v4:= v0 @kind object;
+  #L004670.  v4:= v4.`com.dedett.qqzan.Floatw.wmParams` @type ^`android.view.WindowManager$LayoutParams` @kind object;
+  #L004674.  v5:= -1I;
+  #L004676.  v4.`android.view.ViewGroup$LayoutParams.width` @type ^`int` := v5;
+  #L00467a.  v4:= v0 @kind object;
+  #L00467c.  v4:= v4.`com.dedett.qqzan.Floatw.wmParams` @type ^`android.view.WindowManager$LayoutParams` @kind object;
+  #L004680.  v5:= -1I;
+  #L004682.  v4.`android.view.ViewGroup$LayoutParams.height` @type ^`int` := v5;
+  #L004686.  v4:= v0 @kind object;
+  #L004688.  call temp:= `getApplication`(v4) @signature `Lcom/dedett/qqzan/Floatw;.getApplication:()Landroid/app/Application;` @kind virtual;
+  #L00468e.  v4:= temp @kind object;
+  #L004690.  call temp:= `from`(v4) @signature `Landroid/view/LayoutInflater;.from:(Landroid/content/Context;)Landroid/view/LayoutInflater;` @kind static;
+  #L004696.  v4:= temp @kind object;
+  #L004698.  v2:= v4 @kind object;
+  #L00469a.  v4:= v0 @kind object;
+  #L00469c.  v5:= v2 @kind object;
+  #L00469e.  v6:= 2130903041I;
+  #L0046a4.  v7:= 0I;
+  #L0046a6.  v7:= (`android.view.ViewGroup`) v7 @kind object;
+  #L0046aa.  call temp:= `inflate`(v5, v6, v7) @signature `Landroid/view/LayoutInflater;.inflate:(ILandroid/view/ViewGroup;)Landroid/view/View;` @kind virtual;
+  #L0046b0.  v5:= temp @kind object;
+  #L0046b2.  v5:= (`android.widget.LinearLayout`) v5 @kind object;
+  #L0046b6.  v4.`com.dedett.qqzan.Floatw.mFloatLayout` @type ^`android.widget.LinearLayout` := v5 @kind object;
+  #L0046ba.  v4:= v0 @kind object;
+  #L0046bc.  v4:= v4.`com.dedett.qqzan.Floatw.mWindowManager` @type ^`android.view.WindowManager` @kind object;
+  #L0046c0.  v5:= v0 @kind object;
+  #L0046c2.  v5:= v5.`com.dedett.qqzan.Floatw.mFloatLayout` @type ^`android.widget.LinearLayout` @kind object;
+  #L0046c6.  v6:= v0 @kind object;
+  #L0046c8.  v6:= v6.`com.dedett.qqzan.Floatw.wmParams` @type ^`android.view.WindowManager$LayoutParams` @kind object;
+  #L0046cc.  call `addView`(v4, v5, v6) @signature `Landroid/view/WindowManager;.addView:(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V` @kind interface;
+  #L0046d2.  v4:= v0 @kind object;
+  #L0046d4.  v4:= v4.`com.dedett.qqzan.Floatw.mFloatLayout` @type ^`android.widget.LinearLayout` @kind object;
+  #L0046d8.  v5:= 0I;
+  #L0046da.  v6:= 0I;
+  #L0046dc.  call temp:= `makeMeasureSpec`(v5, v6) @signature `Landroid/view/View$MeasureSpec;.makeMeasureSpec:(II)I` @kind static;
+  #L0046e2.  v5:= temp;
+  #L0046e4.  v6:= 0I;
+  #L0046e6.  v7:= 0I;
+  #L0046e8.  call temp:= `makeMeasureSpec`(v6, v7) @signature `Landroid/view/View$MeasureSpec;.makeMeasureSpec:(II)I` @kind static;
+  #L0046ee.  v6:= temp;
+  #L0046f0.  call `measure`(v4, v5, v6) @signature `Landroid/widget/LinearLayout;.measure:(II)V` @kind virtual;
+  #L0046f6.  return @kind void;
+}
+procedure `android.os.IBinder` `onBind`(`com.dedett.qqzan.Floatw` v4 @kind this, `android.content.Intent` v5 @kind object) @signature `Lcom/dedett/qqzan/Floatw;.onBind:(Landroid/content/Intent;)Landroid/os/IBinder;` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+
+  #L004708.  v0:= v4 @kind object;
+  #L00470a.  v1:= v5 @kind object;
+  #L00470c.  v3:= 0I;
+  #L00470e.  v3:= (`android.os.IBinder`) v3 @kind object;
+  #L004712.  v0:= v3 @kind object;
+  #L004714.  return v0 @kind object;
+}
+procedure `void` `onCreate`(`com.dedett.qqzan.Floatw` v7 @kind this) @signature `Lcom/dedett/qqzan/Floatw;.onCreate:()V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+    v5;
+    v6;
+
+  #L004728.  v0:= v7 @kind object;
+  #L00472a.  v2:= v0 @kind object;
+  #L00472c.  v3:= "com.aide.ui" @kind object;
+  #L004730.  call `onContext`(v2, v3) @signature `Ladrt/ADRTLogCatReader;.onContext:(Landroid/content/Context;Ljava/lang/String;)V` @kind static;
+  #L004736.  v2:= v0 @kind object;
+  #L004738.  call `onCreate`(v2) @signature `Landroid/app/Service;.onCreate:()V` @kind super;
+  #L00473e.  v2:= v0 @kind object;
+  #L004740.  call `createFloatView`(v2) @signature `Lcom/dedett/qqzan/Floatw;.createFloatView:()V` @kind direct;
+  #L004746.  v2:= v0 @kind object;
+  #L004748.  v3:= new `com.dedett.qqzan.Floatw$100000003`;
+  #L00474c.  v6:= v3 @kind object;
+  #L00474e.  v3:= v6 @kind object;
+  #L004750.  v4:= v6 @kind object;
+  #L004752.  v5:= v0 @kind object;
+  #L004754.  call `<init>`(v4, v5) @signature `Lcom/dedett/qqzan/Floatw$100000003;.<init>:(Lcom/dedett/qqzan/Floatw;)V` @kind direct;
+  #L00475a.  v2.`com.dedett.qqzan.Floatw.mHandler` @type ^`android.os.Handler` := v3 @kind object;
+  #L00475e.  return @kind void;
+}
+procedure `void` `onDestroy`(`com.dedett.qqzan.Floatw` v4 @kind this) @signature `Lcom/dedett/qqzan/Floatw;.onDestroy:()V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+
+  #L004770.  v0:= v4 @kind object;
+  #L004772.  v2:= v0 @kind object;
+  #L004774.  v2:= v2.`com.dedett.qqzan.Floatw.mHandler` @type ^`android.os.Handler` @kind object;
+  #L004778.  v3:= v0 @kind object;
+  #L00477a.  v3:= v3.`com.dedett.qqzan.Floatw.mRunnable` @type ^`java.lang.Runnable` @kind object;
+  #L00477e.  call `removeCallbacks`(v2, v3) @signature `Landroid/os/Handler;.removeCallbacks:(Ljava/lang/Runnable;)V` @kind virtual;
+  #L004784.  v2:= v0 @kind object;
+  #L004786.  v2:= v2.`com.dedett.qqzan.Floatw.mFloatLayout` @type ^`android.widget.LinearLayout` @kind object;
+  #L00478a.  if v2 == 0 then goto L0047a0;
+  #L00478e.  v2:= v0 @kind object;
+  #L004790.  v2:= v2.`com.dedett.qqzan.Floatw.mWindowManager` @type ^`android.view.WindowManager` @kind object;
+  #L004794.  v3:= v0 @kind object;
+  #L004796.  v3:= v3.`com.dedett.qqzan.Floatw.mFloatLayout` @type ^`android.widget.LinearLayout` @kind object;
+  #L00479a.  call `removeView`(v2, v3) @signature `Landroid/view/WindowManager;.removeView:(Landroid/view/View;)V` @kind interface;
+  #L0047a0.  v2:= v0 @kind object;
+  #L0047a2.  call `onDestroy`(v2) @signature `Landroid/app/Service;.onDestroy:()V` @kind super;
+  #L0047a8.  return @kind void;
+}
+procedure `void` `onStart`(`com.dedett.qqzan.Floatw` v8 @kind this, `android.content.Intent` v9 @kind object, `int` v10 ) @signature `Lcom/dedett/qqzan/Floatw;.onStart:(Landroid/content/Intent;I)V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+    v5;
+    v6;
+    v7;
+
+  #L0047bc.  v0:= v8 @kind object;
+  #L0047be.  v1:= v9 @kind object;
+  #L0047c0.  v2:= v10;
+  #L0047c2.  v4:= v0 @kind object;
+  #L0047c4.  v4:= v4.`com.dedett.qqzan.Floatw.mHandler` @type ^`android.os.Handler` @kind object;
+  #L0047c8.  v5:= v0 @kind object;
+  #L0047ca.  v5:= v5.`com.dedett.qqzan.Floatw.mRunnable` @type ^`java.lang.Runnable` @kind object;
+  #L0047ce.  v6:= 0I;
+  #L0047d0.  v6:= (`long`) v6 @kind i2l;
+  #L0047d2.  call temp:= `postDelayed`(v4, v5, v6) @signature `Landroid/os/Handler;.postDelayed:(Ljava/lang/Runnable;J)Z` @kind virtual;
+  #L0047d8.  v4:= temp;
+  #L0047da.  return @kind void;
+}

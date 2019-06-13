@@ -1,0 +1,69 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mLocalTypeResolverTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on ArrayAccess1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on ArrayAccess2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on ArrayAccess3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on ArrayCopy[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on ArrayFill1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on ArrayFill2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on ArrayLength1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on Cmp1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on Cmp2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on ConstClass1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on ConstClass2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on DoubleLong1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on Exceptions1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on Exceptions2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on Exceptions3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an exception on Exceptions4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on FieldAccess1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on FieldAccess2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on InstanceOf1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on InstanceOf2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on IfJump1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on IfJump2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on SwitchJump1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mResolve local type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get same result on SwitchJump2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDedex data.dex[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce expected code[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDedex comprehensive.dex[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce expected code[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDedex comprehensive.odex[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce expected code[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mICC_Explicit_NoSrc_NoSink[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31morg.argus.amandroid.core.dedex.LocalTypeResolverTest *** ABORTED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.OutOfMemoryError: GC overhead limit exceeded[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.lang.String.substring(Unknown Source)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.util.Formatter.parse(Unknown Source)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.util.Formatter.format(Unknown Source)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.util.Formatter.format(Unknown Source)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.lang.String.format(Unknown Source)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at brut.androlib.res.data.ResTypeSpec.getResSpec(ResTypeSpec.java:67)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at brut.androlib.res.data.ResResSpec.<init>(ResResSpec.java:39)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at brut.androlib.res.decoder.ARSCDecoder.addMissingResSpecs(ARSCDecoder.java:460)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at brut.androlib.res.decoder.ARSCDecoder.readTableTypeSpec(ARSCDecoder.java:165)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at brut.androlib.res.decoder.ARSCDecoder.readTablePackage(ARSCDecoder.java:118)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m

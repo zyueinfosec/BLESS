@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\NewTest2\Argus-SAF\org.argus.amandroid\src\main\resources\summaries,C:\NewTest2\Argus-SAF\org.argus.amandroid\target\scala-2.12\classes\summaries)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\NewTest2\Argus-SAF\org.argus.amandroid\src\main\resources\summaries\Activity.safsu,C:\NewTest2\Argus-SAF\org.argus.amandroid\target\scala-2.12\classes\summaries\Activity.safsu)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\NewTest2\Argus-SAF\org.argus.amandroid\src\main\resources\summaries\Bundle.safsu,C:\NewTest2\Argus-SAF\org.argus.amandroid\target\scala-2.12\classes\summaries\Bundle.safsu)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\NewTest2\Argus-SAF\org.argus.amandroid\src\main\resources\summaries\ComponentName.safsu,C:\NewTest2\Argus-SAF\org.argus.amandroid\target\scala-2.12\classes\summaries\ComponentName.safsu)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\NewTest2\Argus-SAF\org.argus.amandroid\src\main\resources\summaries\Context.safsu,C:\NewTest2\Argus-SAF\org.argus.amandroid\target\scala-2.12\classes\summaries\Context.safsu)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\NewTest2\Argus-SAF\org.argus.amandroid\src\main\resources\summaries\Intent.safsu,C:\NewTest2\Argus-SAF\org.argus.amandroid\target\scala-2.12\classes\summaries\Intent.safsu)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\NewTest2\Argus-SAF\org.argus.amandroid\src\main\resources\summaries\IntentFilter.safsu,C:\NewTest2\Argus-SAF\org.argus.amandroid\target\scala-2.12\classes\summaries\IntentFilter.safsu)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\NewTest2\Argus-SAF\org.argus.amandroid\src\main\resources\summaries\Uri.safsu,C:\NewTest2\Argus-SAF\org.argus.amandroid\target\scala-2.12\classes\summaries\Uri.safsu)[0m

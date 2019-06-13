@@ -1,0 +1,100 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTaintWuTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m/jawa/taint/TaintTest.jawa[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce expected summary for LTaintTest;.singleFunc:()V *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.singleFunc,L3)][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." did not equal "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.singleFunc,L3)][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." (TaintWuTest.scala:166)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m/jawa/taint/TaintTest.jawa[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce expected summary for LTaintTest;.singleFunc2:()V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m/jawa/taint/TaintTest.jawa[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce expected summary for LTaintTest;.caller:()V *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.caller,L12)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest.caller,L15) param: 1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." did not equal "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.caller,L12)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest.caller,L15) param: 1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." (TaintWuTest.scala:166)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m/jawa/taint/TaintTest.jawa[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce expected summary for LTaintTest;.caller2:()V *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.caller2,L19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest.caller2,L23) param: 0][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." did not equal "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.caller2,L19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest.caller2,L23) param: 0][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." (TaintWuTest.scala:166)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m/jawa/taint/TaintTest.jawa[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce expected summary for LTaintTest;.caller3:()V *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.direct_source,L34)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest.caller3,L32) param: 0][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." did not equal "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.direct_source,L34)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest.caller3,L32) param: 0][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." (TaintWuTest.scala:166)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m/jawa/taint/TaintTest.jawa[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce expected summary for LTaintTest;.caller4:()V *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.field_source,L37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest.caller4,L42) param: 0][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." did not equal "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.field_source,L37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest.caller4,L42) param: 0][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." (TaintWuTest.scala:166)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m/jawa/taint/TaintTest.jawa[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce expected summary for LTaintTest;.caller5:()V *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.field_source,L37)][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." did not equal "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.field_source,L37)][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." (TaintWuTest.scala:166)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m/jawa/taint/TaintTest.jawa[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce expected summary for LTaintTest;.caller6:()V *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.caller6,L47)][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." did not equal "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:()LTaintData;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.caller6,L47)][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." (TaintWuTest.scala:166)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m/jawa/taint/TaintTest.jawa[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce expected summary for LTaintTest;.caller7:()V *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:(LData;)V 1.str[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.caller7,L3) param: 1.str][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." did not equal "Taint path:[[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  api_source: LTest;.source:(LData;)V 1.str[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> api_sink: LTest;.sink:(Ljava/lang/Object;)V 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Call@(TaintTest.caller7,L3) param: 1.str][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  	-> Call@(TaintTest..." (TaintWuTest.scala:166)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m/jawa/taint/TaintTest.jawa[0m[0m

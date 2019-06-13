@@ -1,0 +1,123 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mClassSuTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.asSubclass:(Ljava/lang/Class;)Ljava/lang/Class;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.cast:(Ljava/lang/Object;)Ljava/lang/Object;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.desiredAssertionStatus:()Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.forName:(Ljava/lang/String;)Ljava/lang/Class;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.forName:(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getAnnotation:(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getAnnotations:()[Ljava/lang/annotation/Annotation;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getCanonicalName:()Ljava/lang/String;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getClassLoader:()Ljava/lang/ClassLoader;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getClasses:()[Ljava/lang/Class;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getComponentType:()Ljava/lang/Class;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getConstructor:([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getConstructors:()[Ljava/lang/reflect/Constructor;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredAnnotations:()[Ljava/lang/annotation/Annotation;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredClasses:()[Ljava/lang/Class;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredConstructor:([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredConstructorOrMethod:(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Member;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredConstructors:()[Ljava/lang/reflect/Constructor;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredField:(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredField:(Ljava/lang/String;)Ljava/lang/reflect/Field;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredFields:()[Ljava/lang/reflect/Field;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredFields:(Ljava/lang/Class;Z)[Ljava/lang/reflect/Field;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredMethod:(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredMethods:()[Ljava/lang/reflect/Method;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaredMethods:(Ljava/lang/Class;Z)[Ljava/lang/reflect/Method;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getDeclaringClass:()Ljava/lang/Class;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getEnclosingClass:()Ljava/lang/Class;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getEnclosingConstructor:()Ljava/lang/reflect/Constructor;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getEnclosingMethod:()Ljava/lang/reflect/Method;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getEnumConstants:()[Ljava/lang/Object;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getField:(Ljava/lang/String;)Ljava/lang/reflect/Field;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getFields:()[Ljava/lang/reflect/Field;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getGenericInterfaces:()[Ljava/lang/reflect/Type;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getGenericSuperclass:()Ljava/lang/reflect/Type;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getInterfaces:()[Ljava/lang/Class;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getMethod:(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getMethods:()[Ljava/lang/reflect/Method;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getModifiers:()I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getName:()Ljava/lang/String;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getPackage:()Ljava/lang/Package;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getProtectionDomain:()Ljava/security/ProtectionDomain;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getResource:(Ljava/lang/String;)Ljava/net/URL;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getSigners:()[Ljava/lang/Object;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getSimpleName:()Ljava/lang/String;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getSuperclass:()Ljava/lang/Class;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.getTypeParameters:()[Ljava/lang/reflect/TypeVariable;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isAnnotation:()Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isAnnotationPresent:(Ljava/lang/Class;)Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isAnonymousClass:()Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isArray:()Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isAssignableFrom:(Ljava/lang/Class;)Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isEnum:()Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isInstance:(Ljava/lang/Object;)Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isInterface:()Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isLocalClass:()Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isMemberClass:()Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isPrimitive:()Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.isSynthetic:()Z[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.newInstance:()Ljava/lang/Object;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/Class;.toString:()Ljava/lang/String;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m

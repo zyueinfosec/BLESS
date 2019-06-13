@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="DESKTOP-ML9U0NH" name="org.argus.amandroid.summary.model.IntentSuTest" tests="138" errors="0" failures="0" skipped="0" time="0.126">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_181\bin"/><property name="java.vm.version" value="25.181-b13"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="IE"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\NewTest2\Argus-SAF"/><property name="java.runtime.version" value="1.8.0_181-b13"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\Yue\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\Yue\AppData\Local\Temp\jna-89257\jna3151726692424857291.dll"/><property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Users\Yue\Downloads\FlowDroid\DroidBench-master\DroidBench-master;C:\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\sdk\platforms\android-28;C:\Users\Yue\Downloads\Android-ble-master\slf4j-simple-1.7.5.jar;C:\Users\Yue\AppData\Local\Programs\Python\Python36;C:\Users\Yue\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\Yue\AppData\Local\Programs\Python\Python36\DLLs;C:\Users\Yue\AppData\Local\Programs\Python\Python36\Lib\lib-tk;C:\Program Files (x86)\sbt\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\scala\bin;C:\Users\Yue\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Yue\AppData\Local\Programs\Python\Python36\;C:\Users\Yue\AppData\Local\Microsoft\WindowsApps;;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="user.home" value="C:\Users\Yue"/><property name="user.timezone" value="America/Denver"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="Cp1252"/><property name="java.specification.version" value="1.8"/><property name="sbt.log.format" value="true"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar"/><property name="user.name" value="Yue"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="xsbt.boot.Boot"/><property name="java.home" value="C:\Program Files\Java\jre1.8.0_181"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_181"/><property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\ext;C:\Windows\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_181\lib\resources.jar;C:\Program Files\Java\jre1.8.0_181\lib\rt.jar;C:\Program Files\Java\jre1.8.0_181\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_181\lib\jce.jar;C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_181\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="&lt;clinit&gt;:()V should produce as expected" time="0.013">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="&lt;init&gt;:()V should produce as expected" time="0.003">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="&lt;init&gt;:(Landroid/content/Context;Ljava/lang/Class;)V should produce as expected" time="0.002">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="&lt;init&gt;:(Landroid/content/Intent;)V should produce as expected" time="0.005">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="&lt;init&gt;:(Ljava/lang/String;)V should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="&lt;init&gt;:(Ljava/lang/String;Landroid/net/Uri;)V should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="&lt;init&gt;:(Ljava/lang/String;Landroid/net/Uri;Landroid/content/Context;Ljava/lang/Class;)V should produce as expected" time="0.003">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="addCategory:(Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="addFlags:(I)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="clone:()Ljava/lang/Object; should produce as expected" time="0.004">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="cloneFilter:()Landroid/content/Intent; should produce as expected" time="0.003">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="createChooser:(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="describeContents:()I should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="fillIn:(Landroid/content/Intent;I)I should produce as expected" time="0.003">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="filterEquals:(Landroid/content/Intent;)Z should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="filterHashCode:()I should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getAction:()Ljava/lang/String; should produce as expected" time="0.003">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getBooleanArrayExtra:(Ljava/lang/String;)[Z should produce as expected" time="0.012">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getBooleanExtra:(Ljava/lang/String;Z)Z should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getBundleExtra:(Ljava/lang/String;)Landroid/os/Bundle; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getByteArrayExtra:(Ljava/lang/String;)[B should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getByteExtra:(Ljava/lang/String;B)B should produce as expected" time="0.003">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getCategories:()Ljava/util/Set; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getCharArrayExtra:(Ljava/lang/String;)[C should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getCharExtra:(Ljava/lang/String;C)C should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getCharSequenceArrayExtra:(Ljava/lang/String;)[Ljava/lang/CharSequence; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getCharSequenceArrayListExtra:(Ljava/lang/String;)Ljava/util/ArrayList; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getCharSequenceExtra:(Ljava/lang/String;)Ljava/lang/CharSequence; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getClipData:()Landroid/content/ClipData; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getComponent:()Landroid/content/ComponentName; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getData:()Landroid/net/Uri; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getDataString:()Ljava/lang/String; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getDoubleArrayExtra:(Ljava/lang/String;)[D should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getDoubleExtra:(Ljava/lang/String;D)D should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getExtra:(Ljava/lang/String;)Ljava/lang/Object; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getExtra:(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getExtras:()Landroid/os/Bundle; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getFlags:()I should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getFloatArrayExtra:(Ljava/lang/String;)[F should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getFloatExtra:(Ljava/lang/String;F)F should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getIBinderExtra:(Ljava/lang/String;)Landroid/os/IBinder; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getIntArrayExtra:(Ljava/lang/String;)[I should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getIntExtra:(Ljava/lang/String;I)I should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getIntegerArrayListExtra:(Ljava/lang/String;)Ljava/util/ArrayList; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getIntent:(Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getIntentOld:(Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getLongArrayExtra:(Ljava/lang/String;)[J should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getLongExtra:(Ljava/lang/String;J)J should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getPackage:()Ljava/lang/String; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getParcelableArrayExtra:(Ljava/lang/String;)[Landroid/os/Parcelable; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getParcelableArrayListExtra:(Ljava/lang/String;)Ljava/util/ArrayList; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getParcelableExtra:(Ljava/lang/String;)Landroid/os/Parcelable; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getSerializableExtra:(Ljava/lang/String;)Ljava/io/Serializable; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getShortArrayExtra:(Ljava/lang/String;)[S should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getShortExtra:(Ljava/lang/String;S)S should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getSourceBounds:()Landroid/graphics/Rect; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getStringArrayExtra:(Ljava/lang/String;)[Ljava/lang/String; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getStringArrayListExtra:(Ljava/lang/String;)Ljava/util/ArrayList; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getStringExtra:(Ljava/lang/String;)Ljava/lang/String; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="getType:()Ljava/lang/String; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="hasCategory:(Ljava/lang/String;)Z should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="hasExtra:(Ljava/lang/String;)Z should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="hasFileDescriptors:()Z should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="isExcludingStopped:()Z should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="makeMainActivity:(Landroid/content/ComponentName;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="makeMainSelectorActivity:(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="makeRestartActivityTask:(Landroid/content/ComponentName;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="migrateExtraStreamToClipData:()Z should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="normalizeMimeType:(Ljava/lang/String;)Ljava/lang/String; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="parseIntent:(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;)Landroid/content/Intent; should produce as expected" time="0.002">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="parseUri:(Ljava/lang/String;I)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putCharSequenceArrayListExtra:(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;B)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;C)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;D)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;F)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;I)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;J)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;Landroid/os/IBinder;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;Ljava/lang/CharSequence;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;S)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;Z)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;[B)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;[C)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;[D)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;[F)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;[I)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;[J)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;[Landroid/os/Parcelable;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;[Ljava/lang/CharSequence;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;[S)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtra:(Ljava/lang/String;[Z)Landroid/content/Intent; should produce as expected" time="0.002">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtras:(Landroid/content/Intent;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putExtras:(Landroid/os/Bundle;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putIntegerArrayListExtra:(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putParcelableArrayListExtra:(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="putStringArrayListExtra:(Ljava/lang/String;Ljava/util/ArrayList;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="readFromParcel:(Landroid/os/Parcel;)V should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="removeCategory:(Ljava/lang/String;)V should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="removeExtra:(Ljava/lang/String;)V should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="replaceExtras:(Landroid/content/Intent;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="replaceExtras:(Landroid/os/Bundle;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="resolveActivity:(Landroid/content/pm/PackageManager;)Landroid/content/ComponentName; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="resolveActivityInfo:(Landroid/content/pm/PackageManager;I)Landroid/content/pm/ActivityInfo; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="resolveType:(Landroid/content/ContentResolver;)Ljava/lang/String; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="resolveType:(Landroid/content/Context;)Ljava/lang/String; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="resolveTypeIfNeeded:(Landroid/content/ContentResolver;)Ljava/lang/String; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setAction:(Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setAllowFds:(Z)V should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setClass:(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setClassName:(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setClassName:(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setClipData:(Landroid/content/ClipData;)V should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setComponent:(Landroid/content/ComponentName;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setData:(Landroid/net/Uri;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setDataAndNormalize:(Landroid/net/Uri;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setDataAndType:(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setDataAndTypeAndNormalize:(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setExtrasClassLoader:(Ljava/lang/ClassLoader;)V should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setFlags:(I)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setPackage:(Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setSelector:(Landroid/content/Intent;)V should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setSourceBounds:(Landroid/graphics/Rect;)V should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setType:(Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="setTypeAndNormalize:(Ljava/lang/String;)Landroid/content/Intent; should produce as expected" time="0.003">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="toInsecureString:()Ljava/lang/String; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="toInsecureStringWithClip:()Ljava/lang/String; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="toShortString:(Ljava/lang/StringBuilder;ZZZZ)V should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="toShortString:(ZZZZ)Ljava/lang/String; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="toString:()Ljava/lang/String; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="toURI:()Ljava/lang/String; should produce as expected" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="toUri:(I)Ljava/lang/String; should produce as expected" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.summary.model.IntentSuTest" name="writeToParcel:(Landroid/os/Parcel;I)V should produce as expected" time="0.0">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

@@ -1,0 +1,52 @@
+record `com.dedett.qqzan.Floatw$100000003` @kind class @AccessFlag  extends `android.os.Handler` @kind class {
+  `com.dedett.qqzan.Floatw` `com.dedett.qqzan.Floatw$100000003.this$0` @AccessFlag PRIVATE_FINAL;
+}
+procedure `void` `<init>`(`com.dedett.qqzan.Floatw$100000003` v5 @kind this, `com.dedett.qqzan.Floatw` v6 @kind object) @signature `Lcom/dedett/qqzan/Floatw$100000003;.<init>:(Lcom/dedett/qqzan/Floatw;)V` @AccessFlag CONSTRUCTOR {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+
+  #L0044dc.  v0:= v5 @kind object;
+  #L0044de.  v1:= v6 @kind object;
+  #L0044e0.  v3:= v0 @kind object;
+  #L0044e2.  call `<init>`(v3) @signature `Landroid/os/Handler;.<init>:()V` @kind direct;
+  #L0044e8.  v3:= v0 @kind object;
+  #L0044ea.  v4:= v1 @kind object;
+  #L0044ec.  v3.`com.dedett.qqzan.Floatw$100000003.this$0` @type ^`com.dedett.qqzan.Floatw` := v4 @kind object;
+  #L0044f0.  return @kind void;
+}
+procedure `com.dedett.qqzan.Floatw` `access$0`(`com.dedett.qqzan.Floatw$100000003` v4 @kind object) @signature `Lcom/dedett/qqzan/Floatw$100000003;.access$0:(Lcom/dedett/qqzan/Floatw$100000003;)Lcom/dedett/qqzan/Floatw;` @AccessFlag STATIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+
+  #L004504.  v0:= v4 @kind object;
+  #L004506.  v3:= v0 @kind object;
+  #L004508.  v3:= v3.`com.dedett.qqzan.Floatw$100000003.this$0` @type ^`com.dedett.qqzan.Floatw` @kind object;
+  #L00450c.  v0:= v3 @kind object;
+  #L00450e.  return v0 @kind object;
+}
+procedure `void` `handleMessage`(`com.dedett.qqzan.Floatw$100000003` v5 @kind this, `android.os.Message` v6 @kind object) @signature `Lcom/dedett/qqzan/Floatw$100000003;.handleMessage:(Landroid/os/Message;)V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+
+  #L004520.  v0:= v5 @kind object;
+  #L004522.  v1:= v6 @kind object;
+  #L004524.  v3:= v0 @kind object;
+  #L004526.  v4:= v1 @kind object;
+  #L004528.  call `handleMessage`(v3, v4) @signature `Landroid/os/Handler;.handleMessage:(Landroid/os/Message;)V` @kind super;
+  #L00452e.  v3:= v1 @kind object;
+  #L004530.  v3:= v3.`android.os.Message.what` @type ^`int`;
+  #L004534.  v4:= 1I;
+  #L004536.  if v3 != v4 then goto L00453a;
+  #L00453a.  return @kind void;
+}

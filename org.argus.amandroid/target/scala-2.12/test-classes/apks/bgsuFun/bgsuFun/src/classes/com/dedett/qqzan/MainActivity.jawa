@@ -1,0 +1,74 @@
+record `com.dedett.qqzan.MainActivity` @kind class @AccessFlag PUBLIC extends `android.app.Activity` @kind class {
+}
+procedure `void` `<init>`(`com.dedett.qqzan.MainActivity` v3 @kind this) @signature `Lcom/dedett/qqzan/MainActivity;.<init>:()V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+    v0;
+    v1;
+    v2;
+
+  #L0047ec.  v0:= v3 @kind object;
+  #L0047ee.  v2:= v0 @kind object;
+  #L0047f0.  call `<init>`(v2) @signature `Landroid/app/Activity;.<init>:()V` @kind direct;
+  #L0047f6.  return @kind void;
+}
+procedure `void` `onCreate`(`com.dedett.qqzan.MainActivity` v13 @kind this, `android.os.Bundle` v14 @kind object) @signature `Lcom/dedett/qqzan/MainActivity;.onCreate:(Landroid/os/Bundle;)V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+    v5;
+    v6;
+    v7;
+    v8;
+    v9;
+    v10;
+    v11;
+    v12;
+
+  #L004808.  v0:= v13 @kind object;
+  #L00480a.  v1:= v14 @kind object;
+  #L00480c.  v6:= v0 @kind object;
+  #L00480e.  v7:= "com.aide.ui" @kind object;
+  #L004812.  call `onContext`(v6, v7) @signature `Ladrt/ADRTLogCatReader;.onContext:(Landroid/content/Context;Ljava/lang/String;)V` @kind static;
+  #L004818.  v6:= v0 @kind object;
+  #L00481a.  v7:= v1 @kind object;
+  #L00481c.  call `onCreate`(v6, v7) @signature `Landroid/app/Activity;.onCreate:(Landroid/os/Bundle;)V` @kind super;
+  #L004822.  v6:= v0 @kind object;
+  #L004824.  v7:= 1I;
+  #L004826.  call temp:= `requestWindowFeature`(v6, v7) @signature `Lcom/dedett/qqzan/MainActivity;.requestWindowFeature:(I)Z` @kind virtual;
+  #L00482c.  v6:= temp;
+  #L00482e.  v6:= v0 @kind object;
+  #L004830.  v7:= 2130903040I;
+  #L004834.  call `setContentView`(v6, v7) @signature `Lcom/dedett/qqzan/MainActivity;.setContentView:(I)V` @kind virtual;
+  #L00483a.  v6:= new `android.content.Intent`;
+  #L00483e.  v12:= v6 @kind object;
+  #L004840.  v6:= v12 @kind object;
+  #L004842.  v7:= v12 @kind object;
+  #L004844.  call `<init>`(v7) @signature `Landroid/content/Intent;.<init>:()V` @kind direct;
+  #L00484a.  v7:= v0 @kind object;
+  #L00484c.  v8:= "com.dedett.qqzan.Floatw" @kind object;
+  #L004850.  call temp:= `forName`(v8) @signature `Ljava/lang/Class;.forName:(Ljava/lang/String;)Ljava/lang/Class;` @kind static;
+  #L004856.  v8:= temp @kind object;
+  #L004858.  call temp:= `setClass`(v6, v7, v8) @signature `Landroid/content/Intent;.setClass:(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;` @kind virtual;
+  #L00485e.  v6:= temp @kind object;
+  #L004860.  v3:= v6 @kind object;
+  #L004862.  v6:= v0 @kind object;
+  #L004864.  v7:= v3 @kind object;
+  #L004866.  call temp:= `startService`(v6, v7) @signature `Lcom/dedett/qqzan/MainActivity;.startService:(Landroid/content/Intent;)Landroid/content/ComponentName;` @kind virtual;
+  #L00486c.  v6:= temp @kind object;
+  #L00486e.  return @kind void;
+  #L004870.  v6:= Exception @type ^`java.lang.ClassNotFoundException` @kind object;
+  #L004872.  v4:= v6 @kind object;
+  #L004874.  v6:= new `java.lang.NoClassDefFoundError`;
+  #L004878.  v12:= v6 @kind object;
+  #L00487a.  v6:= v12 @kind object;
+  #L00487c.  v7:= v12 @kind object;
+  #L00487e.  v8:= v4 @kind object;
+  #L004880.  call temp:= `getMessage`(v8) @signature `Ljava/lang/Throwable;.getMessage:()Ljava/lang/String;` @kind virtual;
+  #L004886.  v8:= temp @kind object;
+  #L004888.  call `<init>`(v7, v8) @signature `Ljava/lang/NoClassDefFoundError;.<init>:(Ljava/lang/String;)V` @kind direct;
+  #L00488e.  throw v6;
+  catch `java.lang.ClassNotFoundException` @[L00484c..L004856] goto L004870;
+}

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.github.arguslab"
+		module="amandroid-concurrent$sources_javadoc"
+		revision="3.1.4-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
+		date="20181012102658"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.4" status="release" pubdate="20171011012224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2670" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.1.4-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="5765031" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang\scala-reflect\docs\scala-reflect-2.12.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="582957" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.12.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.arguslab" name="amandroid_2.12">
+			<revision name="3.1.4-SNAPSHOT" status="integration" pubdate="20181012102658" resolver="inter-project" artresolver="inter-project" homepage="https://github.com/arguslab/Argus-SAF" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="20">
+				<license name="Eclipse-1.0" url="http://www.opensource.org/licenses/eclipse-1.0.php"/>
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.1.4-SNAPSHOT" rev-constraint-default="3.1.4-SNAPSHOT" rev-constraint-dynamic="3.1.4-SNAPSHOT" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ini4j" name="ini4j">
+			<revision name="0.5.4" status="release" pubdate="20150217084254" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.ini4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4335" time="0" location="C:\Users\Yue\.ivy2\cache\org.ini4j\ini4j\ivy-0.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="0.5.4" rev-constraint-default="0.5.4" rev-constraint-dynamic="0.5.4" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ini4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="64274" time="0" location="C:\Users\Yue\.ivy2\cache\org.ini4j\ini4j\srcs\ini4j-0.5.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ini4j/ini4j/0.5.4/ini4j-0.5.4-sources.jar"/>
+					</artifact>
+					<artifact name="ini4j" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="307439" time="0" location="C:\Users\Yue\.ivy2\cache\org.ini4j\ini4j\docs\ini4j-0.5.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ini4j/ini4j/0.5.4/ini4j-0.5.4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.4.17" status="release" pubdate="20170210084250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.17" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3139" time="0" location="C:\Users\Yue\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\ivy-2.4.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.17/akka-actor_2.12-2.4.17.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4.17" rev-constraint-default="2.4.17" rev-constraint-dynamic="2.4.17" callerrev="3.1.4-SNAPSHOT" extra-info.apiURL="http://doc.akka.io/api/akka/2.4.17"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="407401" time="0" location="C:\Users\Yue\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\srcs\akka-actor_2.12-2.4.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.17/akka-actor_2.12-2.4.17-sources.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4149081" time="0" location="C:\Users\Yue\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\docs\akka-actor_2.12-2.4.17-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.17/akka-actor_2.12-2.4.17-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161029161227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3072" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63853" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\srcs\scala-java8-compat_2.12-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"/>
+					</artifact>
+					<artifact name="scala-java8-compat_2.12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1908047" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\docs\scala-java8-compat_2.12-0.8.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.0" status="release" pubdate="20150508094611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2910" time="0" location="C:\Users\Yue\.ivy2\cache\com.typesafe\config\ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="167084" time="0" location="C:\Users\Yue\.ivy2\cache\com.typesafe\config\srcs\config-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-sources.jar"/>
+					</artifact>
+					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="442657" time="0" location="C:\Users\Yue\.ivy2\cache\com.typesafe\config\docs\config-1.3.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.arguslab" name="jawa_2.12">
+			<revision name="3.1.4-SNAPSHOT" status="integration" pubdate="20181012102658" resolver="inter-project" artresolver="inter-project" homepage="https://github.com/arguslab/Argus-SAF" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="6">
+				<license name="Eclipse-1.0" url="http://www.opensource.org/licenses/eclipse-1.0.php"/>
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.1.4-SNAPSHOT" rev-constraint-default="3.1.4-SNAPSHOT" rev-constraint-dynamic="3.1.4-SNAPSHOT" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.javaparser" name="javaparser-core">
+			<revision name="3.4.0" status="release" pubdate="20170917120705" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl-3.0.html"/>
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4611" time="0" location="C:\Users\Yue\.ivy2\cache\com.github.javaparser\javaparser-core\ivy-3.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.4.0/javaparser-core-3.4.0.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.4.0" rev-constraint-default="3.4.0" rev-constraint-dynamic="3.4.0" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javaparser-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2870261" time="0" location="C:\Users\Yue\.ivy2\cache\com.github.javaparser\javaparser-core\docs\javaparser-core-3.4.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.4.0/javaparser-core-3.4.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="javaparser-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="537667" time="0" location="C:\Users\Yue\.ivy2\cache\com.github.javaparser\javaparser-core\srcs\javaparser-core-3.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/javaparser/javaparser-core/3.4.0/javaparser-core-3.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="ST4">
+			<revision name="4.0.8" status="release" pubdate="20140325055835" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.stringtemplate.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="BSD licence" url="http://antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4914" time="0" location="C:\Users\Yue\.ivy2\cache\org.antlr\ST4\ivy-4.0.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="4.0.8" rev-constraint-default="4.0.8" rev-constraint-dynamic="4.0.8" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ST4" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="728990" time="0" location="C:\Users\Yue\.ivy2\cache\org.antlr\ST4\docs\ST4-4.0.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8-javadoc.jar"/>
+					</artifact>
+					<artifact name="ST4" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="194935" time="0" location="C:\Users\Yue\.ivy2\cache\org.antlr\ST4\srcs\ST4-4.0.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr-runtime">
+			<revision name="3.5.2" status="release" pubdate="20140325060356" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.antlr.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="BSD licence" url="http://antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="5642" time="0" location="C:\Users\Yue\.ivy2\cache\org.antlr\antlr-runtime\ivy-3.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5.2" rev-constraint-default="3.5.2" rev-constraint-dynamic="3.5.2" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="antlr-runtime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="206095" time="0" location="C:\Users\Yue\.ivy2\cache\org.antlr\antlr-runtime\srcs\antlr-runtime-3.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2-sources.jar"/>
+					</artifact>
+					<artifact name="antlr-runtime" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="769495" time="0" location="C:\Users\Yue\.ivy2\cache\org.antlr\antlr-runtime\docs\antlr-runtime-3.5.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-all">
+			<revision name="5.2" status="release" pubdate="20161223024318" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3986" time="0" location="C:\Users\Yue\.ivy2\cache\org.ow2.asm\asm-all\ivy-5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="5.2" rev-constraint-default="5.2" rev-constraint-dynamic="5.2" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="asm-all" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1069155" time="0" location="C:\Users\Yue\.ivy2\cache\org.ow2.asm\asm-all\srcs\asm-all-5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2-sources.jar"/>
+					</artifact>
+					<artifact name="asm-all" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1809064" time="0" location="C:\Users\Yue\.ivy2\cache\org.ow2.asm\asm-all\docs\asm-all-5.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr4-runtime">
+			<revision name="4.7" status="release" pubdate="20170330152734" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="13">
+				<license name="The BSD License" url="http://www.antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3631" time="0" location="C:\Users\Yue\.ivy2\cache\org.antlr\antlr4-runtime\ivy-4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="4.7" rev-constraint-default="4.7" rev-constraint-dynamic="4.7" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="antlr4-runtime" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1322244" time="0" location="C:\Users\Yue\.ivy2\cache\org.antlr\antlr4-runtime\docs\antlr4-runtime-4.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="antlr4-runtime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="313156" time="0" location="C:\Users\Yue\.ivy2\cache\org.antlr\antlr4-runtime\srcs\antlr4-runtime-4.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.5" status="release" pubdate="20161013135341" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12480" time="0" location="C:\Users\Yue\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1255776" time="0" location="C:\Users\Yue\.ivy2\cache\org.apache.commons\commons-lang3\docs\commons-lang3-3.5-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="526211" time="0" location="C:\Users\Yue\.ivy2\cache\org.apache.commons\commons-lang3\srcs\commons-lang3-3.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="21.0" status="release" pubdate="20170112122249" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7231" time="0" location="C:\Users\Yue\.ivy2\cache\com.google.guava\guava\ivy-21.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="21.0" rev-constraint-default="21.0" rev-constraint-dynamic="21.0" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1489218" time="0" location="C:\Users\Yue\.ivy2\cache\com.google.guava\guava\srcs\guava-21.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar"/>
+					</artifact>
+					<artifact name="guava" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="6085615" time="0" location="C:\Users\Yue\.ivy2\cache\com.google.guava\guava\docs\guava-21.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="3.0.2" status="release" pubdate="20170330225548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3301" time="0" location="C:\Users\Yue\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18102" time="0" location="C:\Users\Yue\.ivy2\cache\com.google.code.findbugs\jsr305\srcs\jsr305-3.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="jsr305" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="172992" time="0" location="C:\Users\Yue\.ivy2\cache\com.google.code.findbugs\jsr305\docs\jsr305-3.0.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.arguslab" name="saf-library_2.12">
+			<revision name="3.1.4-SNAPSHOT" status="integration" pubdate="20181012102658" resolver="inter-project" artresolver="inter-project" homepage="https://github.com/arguslab/Argus-SAF" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="3">
+				<license name="Eclipse-1.0" url="http://www.opensource.org/licenses/eclipse-1.0.php"/>
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.1.4-SNAPSHOT" rev-constraint-default="3.1.4-SNAPSHOT" rev-constraint-dynamic="3.1.4-SNAPSHOT" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest_2.12">
+			<revision name="3.0.1" status="release" pubdate="20161109225252" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5340" time="0" location="C:\Users\Yue\.ivy2\cache\org.scalatest\scalatest_2.12\ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalatest_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1643660" time="0" location="C:\Users\Yue\.ivy2\cache\org.scalatest\scalatest_2.12\srcs\scalatest_2.12-3.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalatest_2.12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="13582837" time="0" location="C:\Users\Yue\.ivy2\cache\org.scalatest\scalatest_2.12\docs\scalatest_2.12-3.0.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.4" status="release" pubdate="20161028171045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2819" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1045773" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\docs\scala-parser-combinators_2.12-1.0.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42274" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\srcs\scala-parser-combinators_2.12-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.12">
+			<revision name="3.0.1" status="release" pubdate="20161109225016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3002" time="0" location="C:\Users\Yue\.ivy2\cache\org.scalactic\scalactic_2.12\ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalactic_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201082" time="0" location="C:\Users\Yue\.ivy2\cache\org.scalactic\scalactic_2.12\srcs\scalactic_2.12-3.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalactic_2.12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1912108" time="0" location="C:\Users\Yue\.ivy2\cache\org.scalactic\scalactic_2.12\docs\scalactic_2.12-3.0.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.4" status="release" pubdate="20171011010456" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2501" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="3.1.4-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/"/>
+				<artifacts>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="30623147" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang\scala-library\docs\scala-library-2.12.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="991177" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jgrapht" name="jgrapht-ext">
+			<revision name="1.0.1" status="release" pubdate="20170116134144" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="GNU Lesser General Public License Version 2.1, February 1999" url="http://jgrapht.sourceforge.net/LGPL.html"/>
+				<license name="Eclipse Public License (EPL) 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="5013" time="0" location="C:\Users\Yue\.ivy2\cache\org.jgrapht\jgrapht-ext\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jgrapht/jgrapht-ext/1.0.1/jgrapht-ext-1.0.1.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jgrapht-ext" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="258299" time="0" location="C:\Users\Yue\.ivy2\cache\org.jgrapht\jgrapht-ext\docs\jgrapht-ext-1.0.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jgrapht/jgrapht-ext/1.0.1/jgrapht-ext-1.0.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="jgrapht-ext" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="84349" time="0" location="C:\Users\Yue\.ivy2\cache\org.jgrapht\jgrapht-ext\srcs\jgrapht-ext-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jgrapht/jgrapht-ext/1.0.1/jgrapht-ext-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jgraph" name="jgraph">
+			<revision name="5.13.0.0" status="release" pubdate="20091123151717" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jgraph.com/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD"/>
+				<metadata-artifact status="no" details="" size="2448" time="0" location="C:\Users\Yue\.ivy2\cache\jgraph\jgraph\ivy-5.13.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jgraph/jgraph/5.13.0.0/jgraph-5.13.0.0.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="5.13.0.0" rev-constraint-default="5.13.0.0" rev-constraint-dynamic="5.13.0.0" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jgraph" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="348362" time="0" location="C:\Users\Yue\.ivy2\cache\jgraph\jgraph\srcs\jgraph-5.13.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jgraph/jgraph/5.13.0.0/jgraph-5.13.0.0-sources.jar"/>
+					</artifact>
+					<artifact name="jgraph" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1383979" time="0" location="C:\Users\Yue\.ivy2\cache\jgraph\jgraph\docs\jgraph-5.13.0.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jgraph/jgraph/5.13.0.0/jgraph-5.13.0.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tinyjee.jgraphx" name="jgraphx">
+			<revision name="2.0.0.1" status="release" pubdate="20130607134200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jgraph.com/jgraph.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="JGraph Ltd - 3 clause BSD license" url="https://raw.github.com/jgraph/jgraphx/v${project.version}/license.txt"/>
+				<metadata-artifact status="no" details="" size="3323" time="0" location="C:\Users\Yue\.ivy2\cache\org.tinyjee.jgraphx\jgraphx\ivy-2.0.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tinyjee/jgraphx/jgraphx/2.0.0.1/jgraphx-2.0.0.1.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="2.0.0.1" rev-constraint-default="2.0.0.1" rev-constraint-dynamic="2.0.0.1" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jgraphx" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="547294" time="0" location="C:\Users\Yue\.ivy2\cache\org.tinyjee.jgraphx\jgraphx\srcs\jgraphx-2.0.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tinyjee/jgraphx/jgraphx/2.0.0.1/jgraphx-2.0.0.1-sources.jar"/>
+					</artifact>
+					<artifact name="jgraphx" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2068693" time="0" location="C:\Users\Yue\.ivy2\cache\org.tinyjee.jgraphx\jgraphx\docs\jgraphx-2.0.0.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tinyjee/jgraphx/jgraphx/2.0.0.1/jgraphx-2.0.0.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jgrapht" name="jgrapht-core">
+			<revision name="1.0.1" status="release" pubdate="20170116134119" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="9">
+				<license name="GNU Lesser General Public License Version 2.1, February 1999" url="http://jgrapht.sourceforge.net/LGPL.html"/>
+				<license name="Eclipse Public License (EPL) 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="4452" time="0" location="C:\Users\Yue\.ivy2\cache\org.jgrapht\jgrapht-core\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jgrapht/jgrapht-core/1.0.1/jgrapht-core-1.0.1.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jgrapht-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="465919" time="0" location="C:\Users\Yue\.ivy2\cache\org.jgrapht\jgrapht-core\srcs\jgrapht-core-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jgrapht/jgrapht-core/1.0.1/jgrapht-core-1.0.1-sources.jar"/>
+					</artifact>
+					<artifact name="jgrapht-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1785308" time="0" location="C:\Users\Yue\.ivy2\cache\org.jgrapht\jgrapht-core\docs\jgrapht-core-1.0.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jgrapht/jgrapht-core/1.0.1/jgrapht-core-1.0.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-ext_2.12">
+			<revision name="3.5.0" status="release" pubdate="20161104081822" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3084" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-ext_2.12\ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.12/3.5.0/json4s-ext_2.12-3.5.0.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="json4s-ext_2.12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="710568" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-ext_2.12\docs\json4s-ext_2.12-3.5.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.12/3.5.0/json4s-ext_2.12-3.5.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="json4s-ext_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4332" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-ext_2.12\srcs\json4s-ext_2.12-3.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.12/3.5.0/json4s-ext_2.12-3.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.8.1" status="release" pubdate="20151002045804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6503" time="0" location="C:\Users\Yue\.ivy2\cache\org.joda\joda-convert\ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joda-convert" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="101952" time="0" location="C:\Users\Yue\.ivy2\cache\org.joda\joda-convert\docs\joda-convert-1.8.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="45686" time="0" location="C:\Users\Yue\.ivy2\cache\org.joda\joda-convert\srcs\joda-convert-1.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.5" status="release" pubdate="20161103103647" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6773" time="0" location="C:\Users\Yue\.ivy2\cache\joda-time\joda-time\ivy-2.9.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.5/joda-time-2.9.5.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="2.9.5" rev-constraint-default="2.9.5" rev-constraint-dynamic="2.9.5" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="777266" time="0" location="C:\Users\Yue\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.9.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.5/joda-time-2.9.5-sources.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1321767" time="0" location="C:\Users\Yue\.ivy2\cache\joda-time\joda-time\docs\joda-time-2.9.5-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.5/joda-time-2.9.5-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-native_2.12">
+			<revision name="3.5.0" status="release" pubdate="20161104081615" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2836" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-native_2.12\ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="json4s-native_2.12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="778821" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-native_2.12\docs\json4s-native_2.12-3.5.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="json4s-native_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9066" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-native_2.12\srcs\json4s-native_2.12-3.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.12/3.5.0/json4s-native_2.12-3.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-core_2.12">
+			<revision name="3.5.0" status="release" pubdate="20161104081801" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3286" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-core_2.12\ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.12/3.5.0/json4s-core_2.12-3.5.0.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="json4s-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42275" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-core_2.12\srcs\json4s-core_2.12-3.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.12/3.5.0/json4s-core_2.12-3.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="json4s-core_2.12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1151874" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-core_2.12\docs\json4s-core_2.12-3.5.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.12/3.5.0/json4s-core_2.12-3.5.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161101082105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3024" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109199" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\srcs\scala-xml_2.12-1.0.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar"/>
+					</artifact>
+					<artifact name="scala-xml_2.12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1889415" time="0" location="C:\Users\Yue\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\docs\scala-xml_2.12-1.0.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.8" status="release" pubdate="20150826052928" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4296" time="0" location="C:\Users\Yue\.ivy2\cache\com.thoughtworks.paranamer\paranamer\ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="paranamer" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="101296" time="0" location="C:\Users\Yue\.ivy2\cache\com.thoughtworks.paranamer\paranamer\docs\paranamer-2.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-javadoc.jar"/>
+					</artifact>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27125" time="0" location="C:\Users\Yue\.ivy2\cache\com.thoughtworks.paranamer\paranamer\srcs\paranamer-2.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-scalap_2.12">
+			<revision name="3.5.0" status="release" pubdate="20161104081500" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2690" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-scalap_2.12\ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.12/3.5.0/json4s-scalap_2.12-3.5.0.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="json4s-scalap_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18573" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-scalap_2.12\srcs\json4s-scalap_2.12-3.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.12/3.5.0/json4s-scalap_2.12-3.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="json4s-scalap_2.12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1086986" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-scalap_2.12\docs\json4s-scalap_2.12-3.5.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.12/3.5.0/json4s-scalap_2.12-3.5.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-ast_2.12">
+			<revision name="3.5.0" status="release" pubdate="20161104081507" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2681" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-ast_2.12\ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.12/3.5.0/json4s-ast_2.12-3.5.0.pom"/>
+				<caller organisation="com.github.arguslab" name="amandroid-concurrent$sources_javadoc" conf="test, compile, provided, test-internal, runtime, optional" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="3.1.4-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="json4s-ast_2.12" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="781722" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-ast_2.12\docs\json4s-ast_2.12-3.5.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.12/3.5.0/json4s-ast_2.12-3.5.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="json4s-ast_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6980" time="0" location="C:\Users\Yue\.ivy2\cache\org.json4s\json4s-ast_2.12\srcs\json4s-ast_2.12-3.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.12/3.5.0/json4s-ast_2.12-3.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

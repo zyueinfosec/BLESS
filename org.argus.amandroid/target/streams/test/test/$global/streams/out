@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.plugin.LockScreenTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.summary.model.IntentSuTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.plugin.TaintWUBenchMarkTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.core.dedex.DedexTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.summary.model.ContextSuTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.summary.model.ComponentNameSuTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.serialization.SerializationTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.core.dedex.LocalTypeResolverTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.plugin.BenchMarkTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.summary.wu.IntentWuTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.summary.model.IntentFilterSuTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.summary.HeapSummaryGeneratorTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.summary.model.UriSuTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.summary.model.ActivitySuTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.summary.model.BundleSuTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.plugin.ApiMisuseTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.amandroid.core.util.GuessAppPackagesTest, org.scalatest.tools.Framework$$anon$1@4b084f19, false, [SuiteSelector])[0m

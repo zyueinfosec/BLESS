@@ -1,0 +1,115 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mStringBuilderTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.<init>:()V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.<init>:(I)V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.<init>:(Ljava/lang/CharSequence;)V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.<init>:(Ljava/lang/String;)V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(C)Ljava/lang/Appendable;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(C)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(D)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(F)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(J)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(Ljava/lang/CharSequence;)Ljava/lang/Appendable;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(Ljava/lang/Object;)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(Ljava/lang/StringBuffer;)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:(Z)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:([C)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.append:([CII)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.appendCodePoint:(I)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.capacity:()I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.charAt:(I)C[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.codePointAt:(I)I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.codePointBefore:(I)I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.codePointCount:(II)I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.delete:(II)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.deleteCharAt:(I)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.ensureCapacity:(I)V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.getChars:(II[CI)V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.indexOf:(Ljava/lang/String;)I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.indexOf:(Ljava/lang/String;I)I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(IC)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(ID)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(IF)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(II)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(IJ)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(ILjava/lang/CharSequence;)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(ILjava/lang/CharSequence;II)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(ILjava/lang/Object;)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(ILjava/lang/String;)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(IZ)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(I[C)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.insert:(I[CII)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.lastIndexOf:(Ljava/lang/String;)I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.lastIndexOf:(Ljava/lang/String;I)I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.length:()I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.offsetByCodePoints:(II)I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.replace:(IILjava/lang/String;)Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.reverse:()Ljava/lang/StringBuilder;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.setCharAt:(IC)V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.setLength:(I)V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.subSequence:(II)Ljava/lang/CharSequence;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.substring:(I)Ljava/lang/String;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.substring:(II)Ljava/lang/String;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.toString:()Ljava/lang/String;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLjava/lang/StringBuilder;.trimToSize:()V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce as expected[0m[0m

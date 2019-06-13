@@ -1,0 +1,37 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mJavaKnowledgeTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be java primitive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjava.lang.Object[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be java primitive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mint[][][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should format to name [[I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjava.lang.Object[][][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should format to name [[Ljava.lang.Object;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mint[][][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should format to signature [[I[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjava.lang.Object[][][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should format to signature [[Ljava/lang/Object;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjava.lang.Object[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should separate to java.lang and Object[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m[Ljava.lang.String;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should format to JawaType(java.lang.String, 1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjava.lang.String[][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should format to JawaType(java.lang.String, 1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m[Ljava/lang/String;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should format to JawaType(java.lang.String, 1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mandroid.os.Handler$Callback[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have outer class android.os.Handler[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mandroid.app.Activity.onCreate(android.os.Bundle)void[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have signature Landroid/app/Activity;.onCreate:(Landroid/os/Bundle;)V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJawaType(android.app.Activity) onCreate Set(JawaType(android.os.Bundle)) JawaType(void)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have signature Landroid/app/Activity;.onCreate:(Landroid/os/Bundle;)V[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjava.lang.Throwable.stackState[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be valid FQN[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjava.lang.Throwable.stackState fqn[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be java.lang.Throwable.stackState[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjava.lang.Throwable.stackState[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get field name stackState[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjava.lang.Throwable.stackState[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have class Type JawaType(java.lang.Throwable)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m[Ljava.lang.String;.length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have class Type JawaType(java.lang.String, 1)[0m[0m

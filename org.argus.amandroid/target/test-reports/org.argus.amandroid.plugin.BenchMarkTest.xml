@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="DESKTOP-ML9U0NH" name="org.argus.amandroid.plugin.BenchMarkTest" tests="48" errors="0" failures="1" skipped="0" time="2107.913">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_181\bin"/><property name="java.vm.version" value="25.181-b13"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="IE"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\NewTest2\Argus-SAF"/><property name="java.runtime.version" value="1.8.0_181-b13"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\Yue\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\Yue\AppData\Local\Temp\jna-89257\jna4019220960073977900.dll"/><property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Users\Yue\Downloads\FlowDroid\DroidBench-master\DroidBench-master;C:\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\sdk\platforms\android-28;C:\Users\Yue\Downloads\Android-ble-master\slf4j-simple-1.7.5.jar;C:\Users\Yue\AppData\Local\Programs\Python\Python37;C:\Users\Yue\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\Yue\AppData\Local\Programs\Python\Python37\DLLs;C:\Users\Yue\AppData\Local\Programs\Python\Python37\Lib\lib-tk;C:\Program Files (x86)\sbt\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\Yue\AppData\Local\Microsoft\WindowsApps;;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="user.home" value="C:\Users\Yue"/><property name="user.timezone" value="America/Denver"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="Cp1252"/><property name="java.specification.version" value="1.8"/><property name="sbt.log.format" value="true"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar"/><property name="user.name" value="Yue"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="xsbt.boot.Boot"/><property name="java.home" value="C:\Program Files\Java\jre1.8.0_181"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_181"/><property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\ext;C:\Windows\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_181\lib\resources.jar;C:\Program Files\Java\jre1.8.0_181\lib\rt.jar;C:\Program Files\Java\jre1.8.0_181\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_181\lib\jce.jar;C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_181\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Explicit_NoSrc_NoSink should have 0 taint paths" time="123.042">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Explicit_NoSrc_Sink should have 0 taint paths" time="40.874">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Explicit_Src_NoSink should have 0 taint paths" time="42.114">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Explicit_Src_Sink should have 1 taint path" time="41.248">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Implicit_NoSrc_NoSink should have 0 taint paths" time="40.615">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Implicit_NoSrc_Sink should have 0 taint paths" time="39.979">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Implicit_Src_NoSink should have 1 taint path" time="41.564">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Implicit_Src_Sink should have 2 taint paths" time="40.849">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_IntentService should have 1 taint path" time="41.456">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Stateful should have 3 taint paths" time="41.627">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_DynRegister1 should have 2 taint paths" time="41.926">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_DynRegister2 should have 3 taint paths" time="41.169">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Explicit1 should have 1 taint path" time="41.753">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Implicit1 should have 2 taint paths" time="41.946">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Implicit2 should have 2 taint paths" time="37.746">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Implicit3 should have 2 taint paths" time="34.441">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Implicit4 should have 2 taint paths" time="40.902">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Implicit5 should have 3 taint paths" time="32.997">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_Implicit6 should have 2 taint paths" time="39.841">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ICC_RPC_Comprehensive should have 3 taint path" time="42.892">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="RPC_LocalService should have 1 taint path" time="41.472">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="RPC_MessengerService should have 1 taint path" time="42.165">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="RPC_RemoteService should have 1 taint path" time="41.265">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="RPC_ReturnSensitive should have 1 taint path" time="40.957">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ActivityCommunication1 should have 1 taint path" time="40.865">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ActivityCommunication2 should have 3 taint paths" time="41.894">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ActivityCommunication3 should have 1 taint path" time="41.807">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ActivityCommunication4 should have 2 taint paths" time="41.567">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ActivityCommunication5 should have 1 taint path" time="42.243">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ActivityCommunication6 should have 1 taint path" time="42.499">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ActivityCommunication7 should have 1 taint path" time="32.283">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ActivityCommunication8 should have 2 taint paths" time="41.582">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="BroadcastTaintAndLeak1 should have 2 taint paths" time="41.079">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ComponentNotInManifest1 should have 0 taint paths" time="40.913">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="EventOrdering1 should have 1 taint path" time="41.921">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="IntentSink1 should have 1 taint path" time="40.598">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="IntentSink2 should have 0 taint paths" time="40.562">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="IntentSource1 should have 2 taint path" time="40.926">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="ServiceCommunication1 should have 1 taint path" time="41.442">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="SharedPreferences1 should have 1 taint path" time="40.698">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="Singletons1 should have 0 taint paths" time="41.03">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="UnresolvableIntent1 should have 3 taint paths" time="40.957">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="InterAppCommunication should have 19 taint paths" time="120.5">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="AsyncTask1 should have 1 taint paths" time="39.228">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="Executor1 should have 1 taint paths" time="39.231">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="JavaThread1 should have 1 taint paths" time="39.256">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="JavaThread2 should have 1 taint paths" time="39.761">
+                                                 
+                                               </testcase><testcase classname="org.argus.amandroid.plugin.BenchMarkTest" name="Looper1 should have 1 taint paths" time="40.231">
+                                                 <failure message="res.isDefined was true, but Set() had size 0 instead of expected size 1" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: res.isDefined was true, but Set() had size 0 instead of expected size 1
+	at org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:528)
+	at org.scalatest.Assertions.newAssertionFailedException$(Assertions.scala:527)
+	at org.scalatest.FlatSpec.newAssertionFailedException(FlatSpec.scala:1685)
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:501)
+	at org.argus.amandroid.plugin.BenchMarkTest.$anonfun$new$48(BenchMarkTest.scala:268)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at org.scalatest.FlatSpec.withFixture(FlatSpec.scala:1685)
+	at org.scalatest.FlatSpecLike.invokeWithFixture$1(FlatSpecLike.scala:1680)
+	at org.scalatest.FlatSpecLike.$anonfun$runTest$1(FlatSpecLike.scala:1692)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)
+	at org.scalatest.FlatSpecLike.runTest(FlatSpecLike.scala:1692)
+	at org.scalatest.FlatSpecLike.runTest$(FlatSpecLike.scala:1674)
+	at org.scalatest.FlatSpec.runTest(FlatSpec.scala:1685)
+	at org.scalatest.FlatSpecLike.$anonfun$runTests$1(FlatSpecLike.scala:1750)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:396)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:373)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:410)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:379)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)
+	at org.scalatest.FlatSpecLike.runTests(FlatSpecLike.scala:1750)
+	at org.scalatest.FlatSpecLike.runTests$(FlatSpecLike.scala:1749)
+	at org.scalatest.FlatSpec.runTests(FlatSpec.scala:1685)
+	at org.scalatest.Suite.run(Suite.scala:1147)
+	at org.scalatest.Suite.run$(Suite.scala:1129)
+	at org.scalatest.FlatSpec.org$scalatest$FlatSpecLike$$super$run(FlatSpec.scala:1685)
+	at org.scalatest.FlatSpecLike.$anonfun$run$1(FlatSpecLike.scala:1795)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:521)
+	at org.scalatest.FlatSpecLike.run(FlatSpecLike.scala:1795)
+	at org.scalatest.FlatSpecLike.run$(FlatSpecLike.scala:1793)
+	at org.scalatest.FlatSpec.run(FlatSpec.scala:1685)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:507)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:106)
+	at sbt.TestRunner.run(TestFramework.scala:117)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:262)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:233)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:262)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:262)
+	at sbt.TestFunction.apply(TestFramework.scala:271)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:281)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(System.scala:46)
+	at sbt.std.Transform$$anon$4.work(System.scala:66)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:262)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+	at sbt.Execute.work(Execute.scala:271)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:262)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:174)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:36)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

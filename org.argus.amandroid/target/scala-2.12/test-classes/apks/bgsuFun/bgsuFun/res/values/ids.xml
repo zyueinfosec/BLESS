@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="sint">false</item>
+    <item type="id" name="number_m">false</item>
+    <item type="id" name="stext">false</item>
+    <item type="id" name="button">false</item>
+    <item type="id" name="nottrue">false</item>
+</resources>

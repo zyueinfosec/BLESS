@@ -1,0 +1,73 @@
+record `com.dedett.qqzan.BootBroadcastReceiver` @kind class @AccessFlag PUBLIC extends `android.content.BroadcastReceiver` @kind class {
+}
+global `java.lang.String` `@@com.dedett.qqzan.BootBroadcastReceiver.action_boot` @AccessFlag STATIC_FINAL;
+procedure `void` `<init>`(`com.dedett.qqzan.BootBroadcastReceiver` v3 @kind this) @signature `Lcom/dedett/qqzan/BootBroadcastReceiver;.<init>:()V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+    v0;
+    v1;
+    v2;
+
+  #L0040bc.  v0:= v3 @kind object;
+  #L0040be.  v2:= v0 @kind object;
+  #L0040c0.  call `<init>`(v2) @signature `Landroid/content/BroadcastReceiver;.<init>:()V` @kind direct;
+  #L0040c6.  return @kind void;
+}
+procedure `void` `onReceive`(`com.dedett.qqzan.BootBroadcastReceiver` v15 @kind this, `android.content.Context` v16 @kind object, `android.content.Intent` v17 @kind object) @signature `Lcom/dedett/qqzan/BootBroadcastReceiver;.onReceive:(Landroid/content/Context;Landroid/content/Intent;)V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+    v5;
+    v6;
+    v7;
+    v8;
+    v9;
+    v10;
+    v11;
+    v12;
+    v13;
+    v14;
+
+  #L0040d8.  v0:= v15 @kind object;
+  #L0040da.  v1:= v16 @kind object;
+  #L0040de.  v2:= v17 @kind object;
+  #L0040e2.  v7:= v2 @kind object;
+  #L0040e4.  call temp:= `getAction`(v7) @signature `Landroid/content/Intent;.getAction:()Ljava/lang/String;` @kind virtual;
+  #L0040ea.  v7:= temp @kind object;
+  #L0040ec.  v8:= "android.intent.action.BOOT_COMPLETED" @kind object;
+  #L0040f0.  call temp:= `equals`(v7, v8) @signature `Ljava/lang/String;.equals:(Ljava/lang/Object;)Z` @kind virtual;
+  #L0040f6.  v7:= temp;
+  #L0040f8.  if v7 == 0 then goto L004134;
+  #L0040fc.  v7:= new `android.content.Intent`;
+  #L004100.  v14:= v7 @kind object;
+  #L004102.  v7:= v14 @kind object;
+  #L004104.  v8:= v14 @kind object;
+  #L004106.  v9:= v1 @kind object;
+  #L004108.  v10:= "com.dedett.qqzan.MainActivity" @kind object;
+  #L00410c.  call temp:= `forName`(v10) @signature `Ljava/lang/Class;.forName:(Ljava/lang/String;)Ljava/lang/Class;` @kind static;
+  #L004112.  v10:= temp @kind object;
+  #L004114.  call `<init>`(v8, v9, v10) @signature `Landroid/content/Intent;.<init>:(Landroid/content/Context;Ljava/lang/Class;)V` @kind direct;
+  #L00411a.  v4:= v7 @kind object;
+  #L00411c.  v7:= v4 @kind object;
+  #L00411e.  v8:= 268435456I;
+  #L004122.  call temp:= `addFlags`(v7, v8) @signature `Landroid/content/Intent;.addFlags:(I)Landroid/content/Intent;` @kind virtual;
+  #L004128.  v7:= temp @kind object;
+  #L00412a.  v7:= v1 @kind object;
+  #L00412c.  v8:= v4 @kind object;
+  #L00412e.  call `startActivity`(v7, v8) @signature `Landroid/content/Context;.startActivity:(Landroid/content/Intent;)V` @kind virtual;
+  #L004134.  return @kind void;
+  #L004136.  v7:= Exception @type ^`java.lang.ClassNotFoundException` @kind object;
+  #L004138.  v5:= v7 @kind object;
+  #L00413a.  v7:= new `java.lang.NoClassDefFoundError`;
+  #L00413e.  v14:= v7 @kind object;
+  #L004140.  v7:= v14 @kind object;
+  #L004142.  v8:= v14 @kind object;
+  #L004144.  v9:= v5 @kind object;
+  #L004146.  call temp:= `getMessage`(v9) @signature `Ljava/lang/Throwable;.getMessage:()Ljava/lang/String;` @kind virtual;
+  #L00414c.  v9:= temp @kind object;
+  #L00414e.  call `<init>`(v8, v9) @signature `Ljava/lang/NoClassDefFoundError;.<init>:(Ljava/lang/String;)V` @kind direct;
+  #L004154.  throw v7;
+  catch `java.lang.ClassNotFoundException` @[L004108..L004112] goto L004136;
+}

@@ -1,0 +1,115 @@
+record `com.dedett.qqzan.Floatw$100000002` @kind class @AccessFlag  extends `java.lang.Runnable` @kind interface {
+  `com.dedett.qqzan.Floatw` `com.dedett.qqzan.Floatw$100000002.this$0` @AccessFlag PRIVATE_FINAL;
+}
+procedure `void` `<init>`(`com.dedett.qqzan.Floatw$100000002` v5 @kind this, `com.dedett.qqzan.Floatw` v6 @kind object) @signature `Lcom/dedett/qqzan/Floatw$100000002;.<init>:(Lcom/dedett/qqzan/Floatw;)V` @AccessFlag CONSTRUCTOR {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+
+  #L0043a0.  v0:= v5 @kind object;
+  #L0043a2.  v1:= v6 @kind object;
+  #L0043a4.  v3:= v0 @kind object;
+  #L0043a6.  call `<init>`(v3) @signature `Ljava/lang/Object;.<init>:()V` @kind direct;
+  #L0043ac.  v3:= v0 @kind object;
+  #L0043ae.  v4:= v1 @kind object;
+  #L0043b0.  v3.`com.dedett.qqzan.Floatw$100000002.this$0` @type ^`com.dedett.qqzan.Floatw` := v4 @kind object;
+  #L0043b4.  return @kind void;
+}
+procedure `com.dedett.qqzan.Floatw` `access$0`(`com.dedett.qqzan.Floatw$100000002` v4 @kind object) @signature `Lcom/dedett/qqzan/Floatw$100000002;.access$0:(Lcom/dedett/qqzan/Floatw$100000002;)Lcom/dedett/qqzan/Floatw;` @AccessFlag STATIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+
+  #L0043c8.  v0:= v4 @kind object;
+  #L0043ca.  v3:= v0 @kind object;
+  #L0043cc.  v3:= v3.`com.dedett.qqzan.Floatw$100000002.this$0` @type ^`com.dedett.qqzan.Floatw` @kind object;
+  #L0043d0.  v0:= v3 @kind object;
+  #L0043d2.  return v0 @kind object;
+}
+procedure `void` `run`(`com.dedett.qqzan.Floatw$100000002` v13 @kind this) @signature `Lcom/dedett/qqzan/Floatw$100000002;.run:()V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+    v5;
+    v6;
+    v7;
+    v8;
+    v9;
+    v10;
+    v11;
+    v12;
+
+  #L0043e4.  v0:= v13 @kind object;
+  #L0043e6.  v7:= v0 @kind object;
+  #L0043e8.  v7:= v7.`com.dedett.qqzan.Floatw$100000002.this$0` @type ^`com.dedett.qqzan.Floatw` @kind object;
+  #L0043ec.  call temp:= `access$L1000002`(v7) @signature `Lcom/dedett/qqzan/Floatw;.access$L1000002:(Lcom/dedett/qqzan/Floatw;)Landroid/widget/LinearLayout;` @kind static;
+  #L0043f2.  v7:= temp @kind object;
+  #L0043f4.  v8:= 2131099649I;
+  #L0043fa.  call temp:= `findViewById`(v7, v8) @signature `Landroid/widget/LinearLayout;.findViewById:(I)Landroid/view/View;` @kind virtual;
+  #L004400.  v7:= temp @kind object;
+  #L004402.  v7:= (`android.widget.TextView`) v7 @kind object;
+  #L004406.  v2:= v7 @kind object;
+  #L004408.  v7:= v0 @kind object;
+  #L00440a.  v7:= v7.`com.dedett.qqzan.Floatw$100000002.this$0` @type ^`com.dedett.qqzan.Floatw` @kind object;
+  #L00440e.  call temp:= `getResources`(v7) @signature `Lcom/dedett/qqzan/Floatw;.getResources:()Landroid/content/res/Resources;` @kind virtual;
+  #L004414.  v7:= temp @kind object;
+  #L004416.  v8:= 2130968586I;
+  #L00441c.  call temp:= `getString`(v7, v8) @signature `Landroid/content/res/Resources;.getString:(I)Ljava/lang/String;` @kind virtual;
+  #L004422.  v7:= temp @kind object;
+  #L004424.  v3:= v7 @kind object;
+  #L004426.  v7:= v2 @kind object;
+  #L004428.  v8:= new `java.lang.StringBuffer`;
+  #L00442c.  v12:= v8 @kind object;
+  #L00442e.  v8:= v12 @kind object;
+  #L004430.  v9:= v12 @kind object;
+  #L004432.  call `<init>`(v9) @signature `Ljava/lang/StringBuffer;.<init>:()V` @kind direct;
+  #L004438.  v9:= v3 @kind object;
+  #L00443a.  call temp:= `append`(v8, v9) @signature `Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;` @kind virtual;
+  #L004440.  v8:= temp @kind object;
+  #L004442.  v9:= v0 @kind object;
+  #L004444.  v9:= v9.`com.dedett.qqzan.Floatw$100000002.this$0` @type ^`com.dedett.qqzan.Floatw` @kind object;
+  #L004448.  v9:= v9.`com.dedett.qqzan.Floatw.number` @type ^`int`;
+  #L00444c.  call temp:= `valueOf`(v9) @signature `Ljava/lang/String;.valueOf:(I)Ljava/lang/String;` @kind static;
+  #L004452.  v9:= temp @kind object;
+  #L004454.  call temp:= `append`(v8, v9) @signature `Ljava/lang/StringBuffer;.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;` @kind virtual;
+  #L00445a.  v8:= temp @kind object;
+  #L00445c.  call temp:= `toString`(v8) @signature `Ljava/lang/StringBuffer;.toString:()Ljava/lang/String;` @kind virtual;
+  #L004462.  v8:= temp @kind object;
+  #L004464.  call `setText`(v7, v8) @signature `Landroid/widget/TextView;.setText:(Ljava/lang/CharSequence;)V` @kind virtual;
+  #L00446a.  v7:= v0 @kind object;
+  #L00446c.  v7:= v7.`com.dedett.qqzan.Floatw$100000002.this$0` @type ^`com.dedett.qqzan.Floatw` @kind object;
+  #L004470.  call temp:= `access$L1000002`(v7) @signature `Lcom/dedett/qqzan/Floatw;.access$L1000002:(Lcom/dedett/qqzan/Floatw;)Landroid/widget/LinearLayout;` @kind static;
+  #L004476.  v7:= temp @kind object;
+  #L004478.  v8:= 2131099650I;
+  #L00447e.  call temp:= `findViewById`(v7, v8) @signature `Landroid/widget/LinearLayout;.findViewById:(I)Landroid/view/View;` @kind virtual;
+  #L004484.  v7:= temp @kind object;
+  #L004486.  v7:= (`android.widget.EditText`) v7 @kind object;
+  #L00448a.  v4:= v7 @kind object;
+  #L00448c.  v7:= v0 @kind object;
+  #L00448e.  v7:= v7.`com.dedett.qqzan.Floatw$100000002.this$0` @type ^`com.dedett.qqzan.Floatw` @kind object;
+  #L004492.  call temp:= `access$L1000002`(v7) @signature `Lcom/dedett/qqzan/Floatw;.access$L1000002:(Lcom/dedett/qqzan/Floatw;)Landroid/widget/LinearLayout;` @kind static;
+  #L004498.  v7:= temp @kind object;
+  #L00449a.  v8:= 2131099651I;
+  #L0044a0.  call temp:= `findViewById`(v7, v8) @signature `Landroid/widget/LinearLayout;.findViewById:(I)Landroid/view/View;` @kind virtual;
+  #L0044a6.  v7:= temp @kind object;
+  #L0044a8.  v7:= (`android.widget.Button`) v7 @kind object;
+  #L0044ac.  v5:= v7 @kind object;
+  #L0044ae.  v7:= v5 @kind object;
+  #L0044b0.  v8:= new `com.dedett.qqzan.Floatw$100000002$100000001`;
+  #L0044b4.  v12:= v8 @kind object;
+  #L0044b6.  v8:= v12 @kind object;
+  #L0044b8.  v9:= v12 @kind object;
+  #L0044ba.  v10:= v0 @kind object;
+  #L0044bc.  v11:= v4 @kind object;
+  #L0044be.  call `<init>`(v9, v10, v11) @signature `Lcom/dedett/qqzan/Floatw$100000002$100000001;.<init>:(Lcom/dedett/qqzan/Floatw$100000002;Landroid/widget/EditText;)V` @kind direct;
+  #L0044c4.  call `setOnClickListener`(v7, v8) @signature `Landroid/widget/Button;.setOnClickListener:(Landroid/view/View$OnClickListener;)V` @kind virtual;
+  #L0044ca.  return @kind void;
+}

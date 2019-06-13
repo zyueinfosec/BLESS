@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.jawa.summary.model.ClassSuTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.jawa.summary.grammar.SafsuTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.jawa.summary.model.ObjectSuTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(hu.ssh.progressbar.console.replacers.PercentageReplacerTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.jawa.summary.model.ListSuTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.jawa.core.JavaKnowledgeTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.jawa.summary.model.MapSuTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.jawa.summary.model.StringBuilderTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(hu.ssh.progressbar.console.replacers.ElapsedTimeReplacerTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(hu.ssh.progressbar.console.replacers.RemainingTimeReplacerTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(hu.ssh.progressbar.console.ConsoleProgressBarTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.jawa.summary.HeapSummaryGeneratorTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(hu.ssh.progressbar.console.replacers.BarReplacerTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.jawa.compiler.parser.JawaParserTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.jawa.summary.model.ThreadSuTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.argus.jawa.summary.model.StringSuTest, org.scalatest.tools.Framework$$anon$1@450d8da6, false, [SuiteSelector])[0m

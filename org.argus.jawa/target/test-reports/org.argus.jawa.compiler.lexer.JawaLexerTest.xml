@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="DESKTOP-ML9U0NH" name="org.argus.jawa.compiler.lexer.JawaLexerTest" tests="70" errors="0" failures="0" skipped="0" time="0.652">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_181\bin"/><property name="java.vm.version" value="25.181-b13"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="IE"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\NewTest2\Argus-SAF"/><property name="java.runtime.version" value="1.8.0_181-b13"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\Yue\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\Yue\AppData\Local\Temp\jna-89257\jna3151726692424857291.dll"/><property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Users\Yue\Downloads\FlowDroid\DroidBench-master\DroidBench-master;C:\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\sdk\platforms\android-28;C:\Users\Yue\Downloads\Android-ble-master\slf4j-simple-1.7.5.jar;C:\Users\Yue\AppData\Local\Programs\Python\Python36;C:\Users\Yue\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\Yue\AppData\Local\Programs\Python\Python36\DLLs;C:\Users\Yue\AppData\Local\Programs\Python\Python36\Lib\lib-tk;C:\Program Files (x86)\sbt\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\scala\bin;C:\Users\Yue\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Yue\AppData\Local\Programs\Python\Python36\;C:\Users\Yue\AppData\Local\Microsoft\WindowsApps;;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="user.home" value="C:\Users\Yue"/><property name="user.timezone" value="America/Denver"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="Cp1252"/><property name="java.specification.version" value="1.8"/><property name="sbt.log.format" value="true"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar"/><property name="user.name" value="Yue"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="xsbt.boot.Boot"/><property name="java.home" value="C:\Program Files\Java\jre1.8.0_181"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_181"/><property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_181\lib\ext;C:\Windows\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_181\lib\resources.jar;C:\Program Files\Java\jre1.8.0_181\lib\rt.jar;C:\Program Files\Java\jre1.8.0_181\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_181\lib\jce.jar;C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_181\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;&lt;&lt;&lt; as &gt;&gt;&gt;List()&lt;&lt;&lt;" time="0.007">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;`format`&lt;&lt;&lt; as &gt;&gt;&gt;List(ID)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;`format`;`format`&lt;&lt;&lt; as &gt;&gt;&gt;List(ID, SEMI, ID)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;||&lt;&lt;&lt; as &gt;&gt;&gt;List(OP)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;:=&lt;&lt;&lt; as &gt;&gt;&gt;List(ASSIGN_OP)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;^~&lt;&lt;&lt; as &gt;&gt;&gt;List(OP)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;v0/2&lt;&lt;&lt; as &gt;&gt;&gt;List(ID, OP, INTEGER_LITERAL)&lt;&lt;&lt;" time="0.002">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;record&lt;&lt;&lt; as &gt;&gt;&gt;List(CLASS_OR_INTERFACE)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;procedure&lt;&lt;&lt; as &gt;&gt;&gt;List(METHOD)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;foo  bar   baz&lt;&lt;&lt; as &gt;&gt;&gt;List(ID, WS, ID, WS, ID)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;  &lt;&lt;&lt; as &gt;&gt;&gt;List(WS)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;// comment&lt;&lt;&lt; as &gt;&gt;&gt;List(LINE_COMMENT)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;//&lt;&lt;&lt; as &gt;&gt;&gt;List(LINE_COMMENT)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;foo// comment&lt;&lt;&lt; as &gt;&gt;&gt;List(ID, LINE_COMMENT)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;foo // comment&lt;&lt;&lt; as &gt;&gt;&gt;List(ID, WS, LINE_COMMENT)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;foo// comment
+    abc//comment&lt;&lt;&lt; as &gt;&gt;&gt;List(ID, LINE_COMMENT, WS, ID, LINE_COMMENT)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;foo/* comment */bar&lt;&lt;&lt; as &gt;&gt;&gt;List(ID, MULTILINE_COMMENT, ID)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;/* bar var */&lt;&lt;&lt; as &gt;&gt;&gt;List(MULTILINE_COMMENT)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;/**/&lt;&lt;&lt; as &gt;&gt;&gt;List(MULTILINE_COMMENT)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;/***/&lt;&lt;&lt; as &gt;&gt;&gt;List(DOC_COMMENT)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;/** asdf */&lt;&lt;&lt; as &gt;&gt;&gt;List(DOC_COMMENT)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;`yield`&lt;&lt;&lt; as &gt;&gt;&gt;List(ID)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;&quot;foobar&quot;&lt;&lt;&lt; as &gt;&gt;&gt;List(STRING_LITERAL)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;`@@global`&lt;&lt;&lt; as &gt;&gt;&gt;List(STATIC_ID)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;@@global&lt;&lt;&lt; as &gt;&gt;&gt;List(STATIC_ID)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;&quot;&quot;&quot;f&quot;o&quot;o&quot;&quot;&quot;&lt;&lt;&lt; as &gt;&gt;&gt;List(STRING_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;&quot;\&quot;&quot;&lt;&lt;&lt; as &gt;&gt;&gt;List(STRING_LITERAL)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="baz()&lt;&lt;&lt; as &gt;&gt;&gt;List(ID, DOT, ID, DOT, ID, LPAREN, RPAREN)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1234&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.615">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1234e2&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1234e+2&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1e-2&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1e+2345f&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1e+2345d&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;100&lt;&lt;&lt; as &gt;&gt;&gt;List(INTEGER_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;1&lt;&lt;&lt; as &gt;&gt;&gt;List(INTEGER_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;1L&lt;&lt;&lt; as &gt;&gt;&gt;List(INTEGER_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;0&lt;&lt;&lt; as &gt;&gt;&gt;List(INTEGER_LITERAL)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;0L&lt;&lt;&lt; as &gt;&gt;&gt;List(INTEGER_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;0x2345&lt;&lt;&lt; as &gt;&gt;&gt;List(INTEGER_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;0x1&lt;&lt;&lt; as &gt;&gt;&gt;List(INTEGER_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;0x32413L&lt;&lt;&lt; as &gt;&gt;&gt;List(INTEGER_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;#&lt;&lt;&lt; as &gt;&gt;&gt;List(LOCATION_ID)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="&lt;&lt;&lt; as &gt;&gt;&gt;List(LOCATION_ID)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1234&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1234e2&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1234e+2&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1e-2&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1e+2345f&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="1e+2345d&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;10e2&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;10e+2&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;10e-2&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;10e+2345f&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;10e+2345d&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;'f'&lt;&lt;&lt; as &gt;&gt;&gt;List(CHARACTER_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;'\n'&lt;&lt;&lt; as &gt;&gt;&gt;List(CHARACTER_LITERAL)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;'\025'&lt;&lt;&lt; as &gt;&gt;&gt;List(CHARACTER_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name=" tokenTextBuffer:= new StringBuilder&lt;&lt;&lt; as &gt;&gt;&gt;List(LOCATION_ID, WS, ID, ASSIGN_OP, WS, NEW, WS, ID)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name=" lcmp(v0, v1);&lt;&lt;&lt; as &gt;&gt;&gt;List(LOCATION_ID, WS, CMP, LPAREN, ID, COMMA, WS, ID, RPAREN, SEMI)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;println(&quot;bob&quot;)
+println(&quot;foo&quot;)&lt;&lt;&lt; as &gt;&gt;&gt;List(ID, LPAREN, STRING_LITERAL, RPAREN, WS, ID, LPAREN, STRING_LITERAL, RPAREN)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;&quot;\u0061&quot;&lt;&lt;&lt; as &gt;&gt;&gt;List(STRING_LITERAL)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;&quot;\u000a&quot;&lt;&lt;&lt; as &gt;&gt;&gt;List(STRING_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;0X1234&lt;&lt;&lt; as &gt;&gt;&gt;List(INTEGER_LITERAL)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;&quot;\u001A&quot;&lt;&lt;&lt; as &gt;&gt;&gt;List(STRING_LITERAL)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;&quot;&quot;&quot;\u001A&quot;&quot;&quot;&lt;&lt;&lt; as &gt;&gt;&gt;List(STRING_LITERAL)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="should tokenise &gt;&gt;&gt;foo+\u0061+bar&lt;&lt;&lt; as &gt;&gt;&gt;List(ID, OP, ID, OP, ID)&lt;&lt;&lt;" time="0.0">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="max(2)&lt;&lt;&lt; as &gt;&gt;&gt;List(FLOATING_POINT_LITERAL, DOT, ID, LPAREN, INTEGER_LITERAL, RPAREN)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="Lexer should throw a lexer exception" time="0.006">
+                                                 
+                                               </testcase><testcase classname="org.argus.jawa.compiler.lexer.JawaLexerTest" name="   return @void ;
+
+   }
+&lt;&lt;&lt; as &gt;&gt;&gt;List(WS, CLASS_OR_INTERFACE, WS, ID, WS, AT, ID, WS, ID, WS, AT, ID, WS, ID, WS, EXTENDS_AND_IMPLEMENTS, WS, ID, WS, AT, ID, WS, ID, WS, LBRACE, WS, ID, WS, ID, WS, AT, ID, WS, SEMI, WS, ID, WS, ID, WS, AT, ID, WS, SEMI, WS, RBRACE, WS, METHOD, WS, ID, WS, ID, WS, LPAREN, ID, WS, ID, WS, AT, ID, WS, ID, RPAREN, WS, AT, ID, WS, ID, WS, AT, ID, WS, ID, WS, LBRACE, WS, ID, WS, SEMI, WS, ID, SEMI, WS, LOCATION_ID, WS, ID, ASSIGN_OP, WS, INTEGER_LITERAL, WS, AT, ID, WS, ID, SEMI, WS, LOCATION_ID, WS, CALL, WS, ID, ASSIGN_OP, WS, ID, LPAREN, ID, RPAREN, WS, AT, ID, WS, ID, WS, AT, ID, WS, ID, SEMI, WS, LOCATION_ID, WS, ID, DOT, ID, WS, ASSIGN_OP, WS, ID, WS, AT, ID, WS, ID, SEMI, WS, LOCATION_ID, WS, ID, DOT, ID, WS, ASSIGN_OP, WS, ID, WS, AT, ID, WS, ID, SEMI, WS, LOCATION_ID, WS, RETURN, WS, AT, ID, WS, SEMI, WS, RBRACE, WS)&lt;&lt;&lt;" time="0.001">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

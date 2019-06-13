@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/scala"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/scala"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/jawa"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/saf-library"/>
+	<classpathentry kind="lib" path="../org.argus.saf.library/lib/apktool-src.zip"/>
+	<classpathentry kind="lib" path="../org.argus.saf.library/lib/apktool.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-3.0.2.jar" sourcepath="C:/Users/Yue/.ivy2/cache/com.google.code.findbugs/jsr305/srcs/jsr305-3.0.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\com.google.code.findbugs\jsr305\docs\jsr305-3.0.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/com.google.guava/guava/bundles/guava-21.0.jar" sourcepath="C:/Users/Yue/.ivy2/cache/com.google.guava/guava/srcs/guava-21.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\com.google.guava\guava\docs\guava-21.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.5.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.apache.commons\commons-lang3\docs\commons-lang3-3.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.7.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.antlr/antlr4-runtime/srcs/antlr4-runtime-4.7-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.antlr\antlr4-runtime\docs\antlr4-runtime-4.7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.ow2.asm/asm-all/jars/asm-all-5.2.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.ow2.asm/asm-all/srcs/asm-all-5.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.ow2.asm\asm-all\docs\asm-all-5.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.antlr/ST4/jars/ST4-4.0.8.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.antlr/ST4/srcs/ST4-4.0.8-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.antlr\ST4\docs\ST4-4.0.8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.5.2.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.antlr/antlr-runtime/srcs/antlr-runtime-3.5.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.antlr\antlr-runtime\docs\antlr-runtime-3.5.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.jgrapht/jgrapht-core/jars/jgrapht-core-1.0.1.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.jgrapht/jgrapht-core/srcs/jgrapht-core-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.jgrapht\jgrapht-core\docs\jgrapht-core-1.0.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.jgrapht/jgrapht-ext/jars/jgrapht-ext-1.0.1.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.jgrapht/jgrapht-ext/srcs/jgrapht-ext-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.jgrapht\jgrapht-ext\docs\jgrapht-ext-1.0.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.tinyjee.jgraphx/jgraphx/jars/jgraphx-2.0.0.1.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.tinyjee.jgraphx/jgraphx/srcs/jgraphx-2.0.0.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.tinyjee.jgraphx\jgraphx\docs\jgraphx-2.0.0.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/jgraph/jgraph/jars/jgraph-5.13.0.0.jar" sourcepath="C:/Users/Yue/.ivy2/cache/jgraph/jgraph/srcs/jgraph-5.13.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\jgraph\jgraph\docs\jgraph-5.13.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/com.github.javaparser/javaparser-core/jars/javaparser-core-3.4.0.jar" sourcepath="C:/Users/Yue/.ivy2/cache/com.github.javaparser/javaparser-core/srcs/javaparser-core-3.4.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\com.github.javaparser\javaparser-core\docs\javaparser-core-3.4.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.ini4j/ini4j/jars/ini4j-0.5.4.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.ini4j/ini4j/srcs/ini4j-0.5.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.ini4j\ini4j\docs\ini4j-0.5.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.json4s/json4s-native_2.12/jars/json4s-native_2.12-3.5.0.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.json4s/json4s-native_2.12/srcs/json4s-native_2.12-3.5.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.json4s\json4s-native_2.12\docs\json4s-native_2.12-3.5.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.json4s/json4s-core_2.12/jars/json4s-core_2.12-3.5.0.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.json4s/json4s-core_2.12/srcs/json4s-core_2.12-3.5.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.json4s\json4s-core_2.12\docs\json4s-core_2.12-3.5.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.json4s/json4s-ast_2.12/jars/json4s-ast_2.12-3.5.0.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.json4s/json4s-ast_2.12/srcs/json4s-ast_2.12-3.5.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.json4s\json4s-ast_2.12\docs\json4s-ast_2.12-3.5.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.json4s/json4s-scalap_2.12/jars/json4s-scalap_2.12-3.5.0.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.json4s/json4s-scalap_2.12/srcs/json4s-scalap_2.12-3.5.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.json4s\json4s-scalap_2.12\docs\json4s-scalap_2.12-3.5.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar" sourcepath="C:/Users/Yue/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.8-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\com.thoughtworks.paranamer\paranamer\docs\paranamer-2.8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\docs\scala-xml_2.12-1.0.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.json4s/json4s-ext_2.12/jars/json4s-ext_2.12-3.5.0.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.json4s/json4s-ext_2.12/srcs/json4s-ext_2.12-3.5.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.json4s\json4s-ext_2.12\docs\json4s-ext_2.12-3.5.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.5.jar" sourcepath="C:/Users/Yue/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\joda-time\joda-time\docs\joda-time-2.9.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.joda\joda-convert\docs\joda-convert-1.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.1.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.scalatest\scalatest_2.12\docs\scalatest_2.12-3.0.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.1.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.scalactic\scalactic_2.12\docs\scalactic_2.12-3.0.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Yue/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar" sourcepath="C:/Users/Yue/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:C:\Users\Yue\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\docs\scala-parser-combinators_2.12-1.0.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
