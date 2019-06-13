@@ -22,6 +22,6 @@ BLESS is a **BLE** Application **S**ecurity **S**canning framework that can eval
 	
 Enjoy!
 
-If you have any questions, please feel free to reach out. My email is zyueinfosec@gmail.com
+ 
 
 More details please refer to our paper. (To be appeared soon) 
