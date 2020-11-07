@@ -26,6 +26,7 @@ For more details please refer to our INFOCOM 2020 paper. (BLESS: A BLE Applicati
 # Citing
 If you create a research work that uses our work, please cite the associated paper:
 
+```
 @inproceedings{zhang2020bless,
   author    = {Yue Zhang and
                Jian Weng and
@@ -41,3 +42,4 @@ If you create a research work that uses our work, please cite the associated pap
   doi       = {10.1109/INFOCOM41043.2020.9155473},
   timestamp = {Mon, 10 Aug 2020 17:45:33 +0200}
 }
+```
