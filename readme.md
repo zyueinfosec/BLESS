@@ -2,7 +2,7 @@
 ### Abstract
 
 
-BLESS is a **BLE** Application **S**ecurity **S**canning framework that can evaluate the security of BLE enabled Apps. Specifically, It extends from the Amandroid  which use taint analysis to detect vulnerabilities of Android Apps. Our observation of designing such a tool is that a secure BLE app must use a key to grantee the data integrity and use a random number to defend the replay attack. Therefore, any apps without these two features are considered as insecure BLE apps.
+BLESS is a **BLE** Application **S**ecurity **S**canning framework that can evaluate the security of BLE enabled apps. Specifically, it extends from the Amandroid which use taint analysis to detect vulnerabilities of Android Apps. Our observation is that a secure BLE app must use a key to defend spoofing attacks and use a random number to defend the replay attacks. Therefore, any apps without the above features are considered as insecure BLE apps.
 
 ##### How to Use it?
 
@@ -10,7 +10,7 @@ BLESS is a **BLE** Application **S**ecurity **S**canning framework that can eval
 	 > *Please refer to the following url to find out how to set up the Amandroid:*
 	 > http://pag.arguslab.org/argus-saf 
 
-2. The following Java file is used to configure the project. Please make sure all configureation is done before you run the framework.
+2. The following Java file is used to configure the project. Please ensure that all configureations are ready before you run the framework.
  	> Path: org.argus.amandroid.alir.securityconfig==> RuntimeConfig.java
 	- executePath : a folder contains sample Android applications for testing our tools.
 	- resPath : the result will save into this folder.
@@ -22,6 +22,4 @@ BLESS is a **BLE** Application **S**ecurity **S**canning framework that can eval
 	
 Enjoy!
 
- 
-
-More details please refer to our paper. (To be appeared soon) 
+For more details please refer to our INFOCOM 2020 paper. (BLESS: A BLE Application Security Scanning Framework: https://ieeexplore.ieee.org/document/9155473) 
